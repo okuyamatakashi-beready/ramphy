@@ -1,0 +1,134 @@
+/*********************************
+    ENTRY
+*********************************/
+#confirm{
+    background: #009E95;
+    padding-top: 9.375%;
+    padding-bottom: 7.8125%;
+}
+#confirm .container {
+    position: relative;
+    z-index: 40;
+}
+#confirm h2 {
+    text-align: center;
+    color: #000;
+    margin-bottom: 80px;
+}
+#confirm p {
+    text-align: center;
+    font-size: clamp(14px,1.6rem,16px);
+    letter-spacing: 0.1em;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+#confirm .container {
+    background-color: #fff;
+    padding-top: 6.089%;
+    padding-bottom: 6.41025%;
+}
+.entryform_wrapper {
+    width: 790px;
+    margin: 0 auto;
+}
+.entryform_wrapper dl {
+    margin-bottom: 28px;
+}
+.entryform_wrapper dl dt {
+    font-size: clamp(14px,1.6rem,16px);
+    letter-spacing: 0.1em;
+    width: 18.98734%;
+}
+.entryform_wrapper dl dd {
+    width: 78.86075%;
+    font-size: clamp(14px,1.6rem,16px)
+}
+.entryform_wrapper dl dd input[type="text"],
+.entryform_wrapper dl dd input[type="email"],
+.entryform_wrapper dl dd input[type="tel"] ,
+.entryform_wrapper dl dd input[type="date"]   {
+    width: 100%;
+    font-size: clamp(14px,1.6rem,16px);
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border: 1px solid #000;
+}
+.entryform_wrapper dl dd textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    border: 1px solid #000;
+}
+.entryform_wrapper dl dd label {
+    display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+    margin-right: 30px;
+}
+.entryform_wrapper dl dd label span {
+    display: block;
+    font-size: clamp(14px,1.6rem,16px);
+}
+.send_wrap {
+    text-align: center;
+}
+.entryform_wrapper input.send {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 17px 20px 18px 0;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid #000;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    #confirm .container {
+        width: 92%;
+        padding-top: 38px;
+    }
+    #confirm p {
+        font-size: 12px;
+        line-height: 22px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .entryform_wrapper {
+        width: 285px;
+    }
+    .entryform_wrapper dl dt {
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 23px;
+        font-weight: 600;
+        width: 100%;
+    }
+    .entryform_wrapper dl dd {
+        width: 100%;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        line-height: 23px;
+    }
+    #confirm {
+        padding-bottom: 70px;
+        padding-top: 48px;
+    }
+    .entryform_wrapper input.send {
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 17px 20px 18px 0;
+        background-color: #fff;
+        border-radius: 50px;
+        border: 1px solid #000;
+        font-size: 16px;
+        color: #000;
+    }
+}

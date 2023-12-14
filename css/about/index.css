@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+/*********************************
+	concept
+*********************************/
+#pg_concept {
+    position: relative;
+    background-color: #009E95;
+	padding-top: 2.86458%;
+	padding-bottom: 8.59374%
+}
+#pg_concept img {
+	width: 100%;
+}
+#pg_concept::before {
+	content: "";
+	background-image: url(../../images/about/concept_mask.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: 1;
+	opacity: 0.3;
+	mix-blend-mode: multiply;
+}
+.concept_fst_wrap {
+	position: relative;
+	z-index: 40;
+	width: 81.25%;
+	margin: 0 auto;
+}
+.concept_fst_wrap figure {
+	width: 73.0769%;
+}
+.concept_fst_wrap figure img {
+	width: 100%;
+}
+.concept_fst_wrap p {
+	font-size: clamp(14px,1.6rem,16px);
+	letter-spacing: 0.1em;
+	line-height: 2.375em;
+	color: #f8ff24;
+}
+.concept_wrap {
+	position: relative;
+	z-index: 40;
+	width: 90.625%;
+	justify-content: flex-start;
+	margin-left: auto;
+	align-items: flex-start;
+	margin-top: 9.1954%;
+}
+.concept_wrap h2 {
+	transform: rotate(90deg);
+	color: #f8ff24;
+	margin-top: 15%;
+}
+.flt_right_concept {
+	order: 2;
+	width: 55.6321%;
+	align-items: flex-start;
+}
+.flt_right_concept figure {
+	width: 84.0909%;
+}
+.concept_text_wrap {
+	order: 1;
+	width: 30.8045%;
+}
+.concept_text_wrap figure {
+	margin-bottom: 14.3656%; 
+}
+.concept_text_wrap b {
+	display: block;
+	font-weight: 500;
+	font-size: clamp(20px,3rem,30px);
+	letter-spacing: 0.3em;
+	margin-bottom: 8.5%;
+	color: #f8ff24;
+	line-height: 2.25em;
+}
+.concept_text_wrap p {
+	font-size: clamp(14px,1.6rem,16px);
+	letter-spacing: 0.1em;
+	line-height: 2.25em;
+	margin-bottom: 8.5%;
+	color: #f8ff24;
+}
+span.about_flt {
+	font-size: clamp(200px,40rem,400px);
+	right: -42%;
+	top: 34.5%;
+	transform: rotate(90deg);
+}
+
+/*********************************
+	concept
+*********************************/
+#point {
+	position: relative;
+	background: #ED6D69;
+	padding-top: 7.8125%;
+	padding-bottom: 7.8125%;
+}
+#point::before {
+	content: "";
+	background-image: url(../../images/about/point_mask.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: 1;
+	opacity: 1;
+	mix-blend-mode: multiply;
+}
+.point_content {
+	position: relative;
+	z-index: 40;
+	margin-bottom: 4.1666%;
+}
+.point_content:last-of-type {
+	margin-bottom: 0;
+}
+.point_container {
+	width: 81.25%;
+}
+.point_container figure {
+	width: 48.71794%;
+}
+.point_container figure img {
+	width: 100%;
+}
+.point_left {
+	margin-right: auto;
+}
+.point_right {
+	margin-left: auto;
+}
+.point_right figure {
+	order: 2;
+}
+.point_right .point_text {
+	order: 1;
+}
+.point_text {
+	width: 38.4615%;
+	position: relative;
+	z-index: 20;
+}
+.point_text b {
+	display: block;
+	font-size: clamp(22px,3rem,30px);
+	letter-spacing: 0.3em;
+	color: #0570b4;
+	font-weight: 500;
+	line-height: 1.75em;
+	margin-bottom: 8.333%;
+}
+.point_text p {
+	font-size: clamp(14px,1.6rem,16px);
+	letter-spacing: 0.1em;
+	line-height: 2.25em;
+	color: #0570b4;
+}
+span.point_flt_left,
+span.point_flt_right {
+	font-size: clamp(250px,50rem,500px);
+	opacity: 0.5;
+	z-index: 10;
+}
+span.point_flt_right {
+	position: absolute;
+	right: -2%;
+	bottom: -3%;
+}
+span.point_flt_left {
+	position: absolute;
+	left: -2%;
+	bottom: -3%;
+}
+
+/*********************************
+	owner message
+*********************************/
+.about_owner {
+	background-color: #00829E;
+	padding: 7.8125% 0;
+}
+.container_min {
+	width: 62.5%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.owner_wrapper {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.owner_img {
+    width: 45.8333%;
+    padding: 24.167% 0;
+    background-image: url(../../images/about/owner_img_pc.jpg);
+}
+.owner_info {
+    width: 48%;
+    padding-top: 4%;
+    color: #F8FF24;
+}
+.owner_info p span {
+    display: block;
+    margin: 6% 0 1% 0;
+}
+.owner_info p {
+    font-size: clamp(12px,1.6rem,16px);
+    letter-spacing: 0.1em;
+    line-height: 2.375em;
+}
+.about_owner h2 {
+	margin-bottom: 17%;
+}
+.owner_info b {
+	display: block;
+	font-size: clamp(20px,3rem,30px);
+	letter-spacing: 0.3em;
+	font-weight: 500;
+	line-height: 2;
+	white-space: nowrap
+}
+@media screen and (max-width: 768px) {
+	.concept_fst_wrap {
+		width: 90%;
+		margin-left: auto;
+		margin-right: 0;
+	}
+	.concept_fst_wrap figure {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	#pg_concept {
+		padding-top: 0;
+		overflow: hidden;
+	}
+	.concept_fst_wrap p {
+		font-size: 12px;
+		line-height: 22px;
+		letter-spacing: 0.01em;
+	}
+	.concept_wrap {
+		width: 100%;
+	}
+	.concept_text_wrap {
+		width: 100%;
+	}
+	.flt_right_concept {
+		width: 100%;
+		flex-wrap: nowrap;
+		margin-left: auto;
+		position: absolute;
+		top: 234px;
+		right: 0;
+	}
+	.concept_text_wrap figure {
+		margin-bottom: 340px;
+		width: 81.6666%;
+	}
+	.concept_text_wrap b {
+		width: 84%;
+		margin: 0 auto;
+		font-size: 16px;
+		line-height: 29px;
+		margin-bottom: 30px;
+	}
+	.concept_text_wrap p {
+		width: 84%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+		font-size: 12px;
+		line-height: 22px;
+	}
+	span.about_flt {
+		font-size: 100px;
+		right: -57%;
+		top: 48.5%;
+	}
+	#point {
+		padding-top: 50px;
+		overflow: hidden;
+	}
+	.point_container {
+		width: 100%;
+		margin-bottom: 70px;
+	}
+	.point_container figure {
+		width: 92%;
+	}
+	.point_text {
+		width: 84%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 100px;
+	}
+	.point_text b {
+		font-size: 16px;
+		line-height: 29px;
+	}
+	span.point_flt_left, span.point_flt_right {
+		font-size: 160px;
+		bottom: auto;
+		top: 220px;
+		left: auto;
+		right: 0;
+	}
+	span.point_flt_right {
+		right: 0;
+		left: auto;
+	}
+	.point_text p {
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.point_right figure {
+		order: 1;
+		margin-left: auto;
+	}
+	.point_right .point_text {
+		order: 2;
+	}
+	.container_min {
+		width: 84%;
+		min-width: 1px;
+	}
+	.owner_img {
+		width: 100%;
+		padding: 0;
+		height: 205px;
+		background-image: url(../../images/about/owner_img_sp.jpg);
+	}
+	.about_owner {
+		padding-top: 48px;
+	}
+	.owner_wrapper h2 {
+		color: #F8FF24;
+		margin-bottom: 30px;
+	}
+	.owner_info {
+		width: 100%;
+	}
+	.owner_info b {
+		font-size: 16px;
+		line-height: 29px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	#info h2 {
+		top: 5%;
+		right: -10%;
+	}
+	#info {
+		overflow: hidden;
+	}
+}
