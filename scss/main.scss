@@ -148,7 +148,8 @@ ul.anchor_link {
 		}
 
 		&.m_right_img {
-			width: 46.98717%;
+			width: 61.153%;
+			margin-left: auto;
 		}
 	}
 }
@@ -522,8 +523,8 @@ ul.staff_list {
 			img {
 				position: absolute;
 				left: 9%;
-				bottom: -61%;
-				width: 0.65vw;
+				bottom: -75%;
+				width: 0.8vw;
 			}
 		}
 
@@ -532,6 +533,7 @@ ul.staff_list {
 			letter-spacing: 0.2em;
 			font-weight: 300;
 			padding: 2% 0 0 13.5%;
+			line-height: 1.875em;
 		}
 	}
 }
@@ -1333,7 +1335,7 @@ ul.staff_list {
     変更箇所
 *************************************************************************************************/
 $backgroundColor: #fff;
-$mainColor: #FF5800;
+$mainColor: #6E2600;
 
 #message {
 	background-color: $backgroundColor;;
@@ -1378,7 +1380,7 @@ $mainColor: #FF5800;
 *********************************/
 #message {
 	position: relative;
-	background-color: #F4F4F4;
+	background-color: #FAF3E7;
 	@media screen and (max-width: 768px) {
 		padding-bottom: 0;
 	}
@@ -1401,7 +1403,7 @@ $mainColor: #FF5800;
 	}
 	.message_img {
 		.m_right_img {
-			margin-top: 10rem;
+			margin-top: 0rem;
 			@media screen and (max-width: 768px) {
 				width: 92%;
 			}
@@ -1416,14 +1418,15 @@ $mainColor: #FF5800;
 		
 		div {
 			background-color: #fff;
-			width: 36%;
+			width: 45.57%;
 			padding-left: 11.375%;
 			margin-left: -11.375%;
 			padding-top: 7rem;
 			padding-bottom: 7rem;
 			position: relative;
 			z-index: 50;
-			margin-top: -7rem;
+			margin-top: -77rem;
+			color: $mainColor;
 			@media screen and (max-width: 768px) {
 				margin-left: auto;
 				margin-right: auto;
@@ -1457,7 +1460,7 @@ $mainColor: #FF5800;
 		}
 	}
 	.message_text_wrap p {
-		color: #000;
+		color: $mainColor;
 
 	}
 }
@@ -1499,7 +1502,7 @@ $markerColor: #fff;
 /*********************************
 Owner
 *********************************/
-$ownerinnerBackgroundColor: #EAEAEA;
+$ownerinnerBackgroundColor: #FAF3E7;
 $ownerBgColor: #fff;
 
 #owner {
@@ -1565,7 +1568,7 @@ ul.staff_list {
 /*********************************
     FLOW
 *********************************/
-$flowBgColor: #EAEAEA;
+$flowBgColor: #FAF3E7;
 
 #flow {
 	background: $flowBgColor;
@@ -1578,7 +1581,7 @@ $flowBgColor: #EAEAEA;
 	.container {
 
 		h2 {
-			color: #000;
+			color: $mainColor;
 		}
 	}
 }
@@ -1598,7 +1601,7 @@ $flowBgColor: #EAEAEA;
 /*********************************
     mable
 *********************************/
-$mableBgColor: #F4F4F4;
+$mableBgColor: #FAF3E7;
 .mable {
 	background-color: $mableBgColor;
 
@@ -1611,7 +1614,7 @@ $mableBgColor: #F4F4F4;
 /*********************************
     proud
 *********************************/
-$proudColor: #F4F4F4;
+$proudColor: #FAF3E7;
 .proud_wrap {
 	background-color: $proudColor;
 

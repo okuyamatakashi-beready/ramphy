@@ -7,15 +7,15 @@
 </div>
 
 <div id="message">
-    <div class="flt_alpha napo message_alpha">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/message_catch.svg" alt="" loading="lazy">
-    </div>
+    <!-- <div class="flt_alpha napo message_alpha">
+        <img src="</?php echo get_template_directory_uri(); ?>/images/message_catch.svg" alt="" loading="lazy">
+    </div> -->
 
     <div class="container message_wrapper">
         <div class="message_img flex">
-            <figure class="m_left_img fadeUp duration1">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/message_left.jpg" alt="" loading="lazy">
-            </figure>
+            <!-- <figure class="m_left_img fadeUp duration1">
+                <img src="</?php echo get_template_directory_uri(); ?>/images/message_left.jpg" alt="" loading="lazy">
+            </figure> -->
 
             <figure class="m_right_img fadeUp duration2">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/message_right.jpg" alt="" loading="lazy">
@@ -27,22 +27,32 @@
 
             <div>
                 <strong>
-                    SHAPE ONE’S<br>
-                    DREAM
+                    魅力的な美容師は、<br>
+                    人の満足を叶えて、超える。
                 </strong>
                 <p class="fadeUp duration1">
-                    僕らは、夢をみる。<br>
-                    それは夜が明けても、覚めることはない。<br>
-                    この先の可能性を広げたいから。<br>
-                    やりたい仕事。 行きたい場所。 会いたい人。<br>
-                    接する全ての人の“幸せ”に向き合って<br>
-                    カタチにしていくことが僕らの夢。
+                    感度の高い方にも、ご近所さんにも、<br>
+                    小さなサロンデビューの子にも。<br>
+                    いろいろなお客様の満足を叶える。時に超えていきたい。<br><br>
+
+                    でも、それって簡単なことではないです。<br>
+                    そのためには成長が必要で、学ぶことも大切。<br>
+                    美容師が持つ高い技術により素敵な時間を提供し、<br>
+                    満足を叶えることと超えることが、本当のクリエイティブ。<br>
+                    そう信じて、魅力的で愛される美容師がいるサロンにしたい。<br><br>
+
+                    遊びに行く感覚で、満足してもらえるように。<br>
+                    新しいスタイルへ、気軽に挑戦できるように。<br>
+                    おしゃべりしに来て、おしゃれになるように。<br><br>
+
+                    なりたいを叶えられるサロン。リラックスして和むサロン。<br>
+                    そんなサロンが、ramphyです。
                 </p>
             </div>
 
-            <figure class="fadeUp duration1">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/message_left02.jpg" alt="" loading="lazy">
-            </figure>
+            <!-- <figure class="fadeUp duration1">
+                <img src="</?php echo get_template_directory_uri(); ?>/images/message_left02.jpg" alt="" loading="lazy">
+            </figure> -->
         </div>
         <!-- //message_text_wrap -->
     </div>
@@ -50,7 +60,7 @@
 </div>
 <!-- //message -->
 
-<section id="howto" class="bg">
+<!-- <section id="howto" class="bg">
     <div class="container">
         <h2 class="sec_ttl">
             PHILOSOPHY
@@ -66,7 +76,7 @@
                 人に興味を持ち、<br>
                 人を好きになる。
             </h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/howto_icon01.svg" alt="">
+            <img src="</?php echo get_template_directory_uri(); ?>/images/howto_icon01.svg" alt="">
         </div>
 
         <div class="howto_child">
@@ -75,7 +85,7 @@
                 ポジティブな<br>
                 言葉に置き変える。
             </h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/howto_icon02.svg" alt="">
+            <img src="</?php echo get_template_directory_uri(); ?>/images/howto_icon02.svg" alt="">
         </div>
 
         <div class="howto_child">
@@ -84,7 +94,7 @@
                 人の良いところ<br>
                 見つけて褒める。
             </h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/howto_icon03.svg" alt="">
+            <img src="</?php echo get_template_directory_uri(); ?>/images/howto_icon03.svg" alt="">
         </div>
 
         <div class="howto_child">
@@ -93,7 +103,7 @@
                 「すみません」より<br>
                 「ありがとう」を伝える。
             </h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/howto_icon04.svg" alt="">
+            <img src="</?php echo get_template_directory_uri(); ?>/images/howto_icon04.svg" alt="">
         </div>
         <div class="howto_child">
             <span class="no">05.</span>
@@ -101,11 +111,11 @@
                 笑顔・挨拶をしっかり、<br>
                 目を見て話す。
             </h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/howto_icon05.svg" alt="">
+            <img src="</?php echo get_template_directory_uri(); ?>/images/howto_icon05.svg" alt="">
         </div>
     </div>
     
-</section>
+</section> -->
 <!-- //howto -->
 
 <div class="mid_section">
@@ -152,10 +162,10 @@
                     </figure>
                     <div class="staff_text flex">
                         <div class="staff_name">
-                            <h3>NANOKA</h3>
+                            <h3>櫻井 莉子</h3>
                             <p>
-                                <span>〇〇〇〇〇アカデミー 出身<br></span>
-                                <span>2019年入社</span>
+                                <span>静岡県西部理容美容専門学校 出身<br></span>
+                                <span>2022年入社</span>
                             </p>
                         </div>
                         <a href="/staff/manami" class="staff_link flex">
@@ -171,10 +181,10 @@
                     </figure>
                     <div class="staff_text flex">
                         <div class="staff_name">
-                            <h3>KATOU</h3>
+                            <h3>山本梨乃</h3>
                             <p>
-                                <span>〇〇〇〇短期大学 出身<br></span>
-                                <span>2020年入社</span>
+                                <span>中日美容専門学校 出身<br></span>
+                                <span>2019年入社</span>
                             </p>
                         </div>
                         <a href="/staff/natsumi" class="staff_link flex">
@@ -205,22 +215,22 @@
 
         <div class="flow_wrapper">
             <dl class="fadeUp duration2">
-                <dt>01. エントリーフォーム記入・送信<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
-                <dd>下記エントリーフォームからご応募ください。<br>通常2-3営業日以内にメールまたはお電話でご連絡させていただきます。</dd>
+                <dt>01. 書類選考<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
+                <dd>インスタグラムのDMからご応募ください。<br>通常2-3営業日以内にメールまたはお電話でご連絡させていただきます。</dd>
             </dl>
 
             <dl class="fadeUp duration3">
-                <dt>02. サロン見学<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
-                <dd>まずはお気軽に、サロン見学へお越しください。<br>その際にご希望の方は面接の希望日時もご相談させていただきます。</dd>
-            </dl>
-
-            <dl class="fadeUp duration4">
-                <dt>03. サロンにて面接<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
+                <dt>02. 面接2回<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
                 <dd>サロンにて、オーナーと面接を行います。<br>不安点やご質問などあれば、なんでもお話しください。</dd>
             </dl>
 
+            <dl class="fadeUp duration4">
+                <dt>03. サロン実習<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
+                <dd>シャンプーなどの簡単な実習を行います。</dd>
+            </dl>
+
             <dl class="fadeUp duration5">
-                <dt>04. 採用</dt>
+                <dt>04. 内定</dt>
                 <dd>正式に採用のご連絡をいたします。<br>HAIR SALONの新しい仲間として、一緒に美容師を楽しみましょう♪</dd>
             </dl>
         </div>

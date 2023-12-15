@@ -1344,7 +1344,8 @@ ul.anchor_link li::after {
   width: 49.80769%;
 }
 .message_img figure.m_right_img {
-  width: 46.98717%;
+  width: 61.153%;
+  margin-left: auto;
 }
 
 span.message_alpha {
@@ -1683,14 +1684,15 @@ ul.staff_list li .staff_text a img {
 .flow_wrapper dl dt img {
   position: absolute;
   left: 9%;
-  bottom: -61%;
-  width: 0.65vw;
+  bottom: -75%;
+  width: 0.8vw;
 }
 .flow_wrapper dl dd {
   font-size: clamp(12px, 1.6rem, 16px);
   letter-spacing: 0.2em;
   font-weight: 300;
   padding: 2% 0 0 13.5%;
+  line-height: 1.875em;
 }
 
 /*********************************
@@ -2382,7 +2384,7 @@ ul.staff_list li .staff_text a img {
 *********************************/
 #message {
   position: relative;
-  background-color: #F4F4F4;
+  background-color: #FAF3E7;
 }
 @media screen and (max-width: 768px) {
   #message {
@@ -2411,7 +2413,7 @@ ul.staff_list li .staff_text a img {
   }
 }
 #message .message_img .m_right_img {
-  margin-top: 10rem;
+  margin-top: 0rem;
 }
 @media screen and (max-width: 768px) {
   #message .message_img .m_right_img {
@@ -2425,14 +2427,15 @@ ul.staff_list li .staff_text a img {
 }
 #message .message_text_wrap div {
   background-color: #fff;
-  width: 36%;
+  width: 45.57%;
   padding-left: 11.375%;
   margin-left: -11.375%;
   padding-top: 7rem;
   padding-bottom: 7rem;
   position: relative;
   z-index: 50;
-  margin-top: -7rem;
+  margin-top: -77rem;
+  color: #6E2600;
 }
 @media screen and (max-width: 768px) {
   #message .message_text_wrap div {
@@ -2469,7 +2472,7 @@ ul.staff_list li .staff_text a img {
   }
 }
 #message .message_text_wrap p {
-  color: #000;
+  color: #6E2600;
 }
 
 /*********************************
@@ -2494,7 +2497,7 @@ ul.staff_list li .staff_text a img {
 Owner
 *********************************/
 #owner {
-  background-color: #EAEAEA;
+  background-color: #FAF3E7;
 }
 
 .owner_img {
@@ -2502,7 +2505,7 @@ Owner
 }
 
 .owner_info {
-  color: #FF5800;
+  color: #6E2600;
 }
 
 .mid_section {
@@ -2517,34 +2520,34 @@ Owner
     staff_interview
 *********************************/
 #staff_interview h2 {
-  color: #FF5800;
+  color: #6E2600;
 }
 
 ul.staff_list li {
-  color: #FF5800;
+  color: #6E2600;
 }
 ul.staff_list li .staff_text .staff_name p span {
-  background-color: #FF5800;
+  background-color: #6E2600;
   color: #fff;
 }
 ul.staff_list li .staff_text a {
-  color: #FF5800;
+  color: #6E2600;
 }
 ul.staff_list li .staff_text a::after {
-  background: #FF5800;
+  background: #6E2600;
 }
 
 /*********************************
     FLOW
 *********************************/
 #flow {
-  background: #EAEAEA;
+  background: #FAF3E7;
 }
 #flow .line_img {
   background-image: url(./../images/flow_bg.jpg);
 }
 #flow .container h2 {
-  color: #000;
+  color: #6E2600;
 }
 
 .flow_wrapper dl {
@@ -2558,7 +2561,7 @@ ul.staff_list li .staff_text a::after {
     mable
 *********************************/
 .mable {
-  background-color: #F4F4F4;
+  background-color: #FAF3E7;
 }
 .mable::before {
   background-image: none;
@@ -2568,7 +2571,7 @@ ul.staff_list li .staff_text a::after {
     proud
 *********************************/
 .proud_wrap {
-  background-color: #F4F4F4;
+  background-color: #FAF3E7;
 }
 
 /*********************************
@@ -2578,7 +2581,7 @@ ul.staff_list li .staff_text a::after {
   background-color: #fff;
 }
 #requirements h2.sec_ttl {
-  color: #FF5800;
+  color: #6E2600;
 }
 
 .require_info {
@@ -2603,7 +2606,7 @@ ul.staff_list li .staff_text a::after {
   background: #F4F4F4;
 }
 #entry h2.sec_ttl {
-  color: #FF5800;
+  color: #6E2600;
 }
 #entry .container {
   background-color: #fff;
@@ -2658,17 +2661,17 @@ ul.staff_list li .staff_text a::after {
   }
 }
 #contact h2 {
-  color: #FF5800;
+  color: #6E2600;
 }
 #contact p {
-  color: #FF5800;
+  color: #6E2600;
   font-size: clamp(12px, 1.6rem, 20px);
   margin-top: 4rem;
   margin-bottom: 6rem;
 }
 #contact a.common_btn {
-  border: 1px solid #FF5800;
-  color: #FF5800;
+  border: 1px solid #6E2600;
+  color: #6E2600;
   font-weight: normal;
 }
 #contact ul {
@@ -2693,39 +2696,39 @@ ul.staff_list li .staff_text a::after {
   }
 }
 #footer .ft_left h3 {
-  color: #FF5800;
+  color: #6E2600;
   font-weight: normal;
 }
 #footer .ft_left ul li a {
-  color: #FF5800;
+  color: #6E2600;
 }
 #footer .ft_left small {
-  color: #FF5800;
+  color: #6E2600;
 }
 #footer .ft_left ul {
-  border-bottom: 1px solid #FF5800;
+  border-bottom: 1px solid #6E2600;
 }
 #footer .ft_right {
-  border-left: 1px solid #FF5800;
+  border-left: 1px solid #6E2600;
 }
 #footer .ft_right h3 p {
-  color: #FF5800;
+  color: #6E2600;
 }
 #footer .ft_right h3 span {
-  color: #FF5800;
+  color: #6E2600;
 }
 #footer .ft_right ul li a {
-  color: #FF5800;
-  border-color: #FF5800;
+  color: #6E2600;
+  border-color: #6E2600;
   font-weight: normal;
   width: 30%;
 }
 #footer .ft_right ul li b {
-  color: #FF5800;
+  color: #6E2600;
   font-family: "Roboto", sans-serif;
 }
 #footer .ft_right ul li p {
-  color: #FF5800;
+  color: #6E2600;
 }
 #footer .ft_right ul li .insta_list {
   justify-content: flex-start;
