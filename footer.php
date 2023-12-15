@@ -2,16 +2,16 @@
 <div class="container">
     <div class="flex">
         <div class="ft_left">
-            <h3>THREE</h3>
+            <h3>ramphy</h3>
             <small class="sp">Copyright © Cue All Rights Reserved.</small>
 
 
             <ul class="flex">
                 <li>
-                    <a href="/">THREEについて</a>
+                    <a href="/">ramphyについて</a>
                 </li>
                 <li>
-                    <a href="#howto">THREEの大切にすること</a>
+                    <a href="#howto">ramphyの大切にすること</a>
                 </li>
                 <li>
                     <a href="#owner">オーナーメッセージ</a>
@@ -24,6 +24,9 @@
                 </li>
                 <li>
                     <a href="#requirements">募集要項</a>
+                </li>
+                <li>
+                    <a href="#requirements">会社概要</a>
                 </li>
                 <li>
                     <a href="#entry">エントリーフォーム</a>
@@ -43,20 +46,14 @@
                     <b>- FOLLOW ME</b>
                     <div class="flex insta_list">
                         <a href="https://www.instagram.com/tote_yate_official/" class="ft_insta flex" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/salon_insta.svg" alt="" class="pc">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/salon_insta_sp.svg" alt="" class="sp">
-                            <span>tote_yate_official</span>
-                        </a>
-                        <a href="https://www.instagram.com/yakiniku_raf/" class="ft_insta flex" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/salon_insta.svg" alt="" class="pc">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/salon_insta_sp.svg" alt="" class="sp">
-                            <span>yakiniku_raf</span>
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="" class="pc">
+                            <span>ramphy_hair_atelier</span>
                         </a>
                     </div>
                     
                 </li>
 
-                <li>
+                <!-- <li>
                     <b>- LOOK ME</b>
                     <div class="flex">
                         <a href="https://beauty.hotpepper.jp/slnH000473798/" class="common_btn" target="_blank">
@@ -72,28 +69,13 @@
                             RAF
                         </a>
                     </div>
-                </li>
+                </li> -->
 
                 <li>
                     <b>- 応募方法</b>
                     <p>
-                        HOT PEPPERでの応募も承っています。<br>
-                        お気軽のご応募ください。
+                        InstagramのDMよりご応募をお願いいたします。
                     </p>
-                    <div class="flex qr_list">
-
-                        <a href="https://lin.ee/uv7PoBm" class="qr pc" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/qr.png" alt="">
-                        </a>
-                        <a href="https://lin.ee/uv7PoBm" class="qr pc" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/top/qr.png" alt="">
-                        </a>
-                    </div>
-
-                    <a href="https://lin.ee/uv7PoBm" class="common_btn sp" target="_blank">
-                        <span>+</span>
-                        LINE
-                    </a>
                 </li>
             </ul>
         </div>

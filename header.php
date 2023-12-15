@@ -4,7 +4,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 		
-		<title>THREE</title>
+		<title>ramphy</title>
 
 
 		<!-- CSS -->
@@ -67,7 +67,7 @@
                     <div class="mv_logo">
 
                         <div>
-                            <a href="/" class="logo">THREE</a>
+                            <a href="/" class="logo">ramphy</a>
 
                             <ul class="reserve_link flex">
                                 <li>
@@ -137,40 +137,15 @@
 								</a>
 							</li>
 						</ul>
-						<div class="h_insta_link flex">
+						<div class="h_insta_link">
+							<p>- FOLLOW ME</p>
 							<a href="https://www.instagram.com/tote_yate_official/" class="header_insta" targetr="_blank">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/common/insta_icon.svg" alt="instagram"><span>tote_yate_official</span>
-							</a>
-							<a href="https://www.instagram.com/yakiniku_raf/" class="header_insta" targetr="_blank">
-								<img src="<?php echo get_template_directory_uri(); ?>/images/common/insta_icon.svg" alt="instagram"><span>yakiniku_raf</span>
+								<div class="flex">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon_white.svg" alt="instagram"><span>ramphy_hair_atelier</span>
+								</div>
 							</a>
 						</div>
 
-						<div class="header_left_btn pc">
-							<b>- LOOK ME</b>
-							<div class="flex">
-								<a href="https://beauty.hotpepper.jp/slnH000473798/" class="common_btn" targetr="_blank">
-								＋ tote
-								</a>
-								<a href="/recruit" class="common_btn">
-								＋ yate'
-								</a>
-								<a href="/recruit" class="common_btn">
-								＋ RAF
-								</a>
-							</div>
-						</div>
-						<div class="header_left_btn sp">
-							<b>- FOLLOW ME</b>
-							<div class="flex">
-								<a href="https://www.instagram.com/tote_yate_official/" class="header_insta" targetr="_blank">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/common/insta_icon_orange.svg" alt="instagram"><span>tote_yate_official</span>
-								</a>
-								<a href="https://www.instagram.com/yakiniku_raf/" class="header_insta" targetr="_blank">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/common/insta_icon_orange.svg" alt="instagram"><span>yakiniku_raf</span>
-								</a>
-							</div>
-						</div>
 					</div>
 					<!-- //header_nav -->
 				</div>
@@ -184,7 +159,7 @@
     <div class="mv_logo">
 
         <div>
-            <a href="/" class="logo">THREE</a>
+            <a href="/" class="logo">ramphy</a>
 
             <ul class="reserve_link flex">
                 <li>

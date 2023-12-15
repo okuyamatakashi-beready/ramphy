@@ -32,6 +32,12 @@ Version: 1.0
   format: "opentype"; /* フォントのフォーマットを指定 */
   font-weight: bold;
 }
+@font-face {
+  font-family: "Georgia Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Georgia Regular"), url("./fonts/georgia.woff") format("woff");
+}
 * {
   margin: 0;
   padding: 0;

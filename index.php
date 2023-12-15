@@ -131,13 +131,19 @@
                     </small>
                 </h2>
                 <p class="fadeUp duration2">
-                    <span class="owner_name">オーナースタイリスト / 門脇 麻未</span>
-                    ここにメッセージが入ります。ここにメッセージが入ります。
-ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。
+                    <span class="owner_name">オーナー/ 中野間 秀隆</span>
+                    人に興味関心を持ち、それぞれのことを信頼しているスタッフばかり。<br>
+                    上司部下、先輩後輩という上下関係よりも家族や兄弟姉妹のような関係が近いのかも。<br>
+                    一体感を持ってお客様を迎え入れられているのが、うれしい。<br>
+                    Ramphyを好きでいてくれ、この場所を大切にしてくれるスタッフばかり。<br><br>
 
-ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。
+                    だから、スタッフのやりたいことを実現できる場所にしていきたい。<br>
+                    お客様もスタッフも、長居したくなるサロン・会社にしていきたい。<br>
+                    自分の大切な方を紹介してもらえる美容師・サロンを目指していきたい。<br><br>
 
-ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。ここにメッセージが入ります。
+                    無意識に人のことを思いやり、そばにいる人を大切にして、<br>
+                    感謝の心を持っていられる人は、すばらしい。<br>
+                    Ramphyは、そんな人が集まるサロンでありつづけたい。
                 </p>
             </div>
         </div>
@@ -168,9 +174,9 @@
                                 <span>2022年入社</span>
                             </p>
                         </div>
-                        <a href="/staff/manami" class="staff_link flex">
+                        <div class="interview_open staff_link flex">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/read_arrow.svg" alt=""><span>READ</span>
-                        </a>
+                        </div>
                     </div>
                 </li>
 
@@ -187,14 +193,69 @@
                                 <span>2019年入社</span>
                             </p>
                         </div>
-                        <a href="/staff/natsumi" class="staff_link flex">
+                        <div class="interview_open staff_link flex">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/read_arrow.svg" alt=""><span>READ</span>
-                        </a>
+                        </div>
                     </div>
                 </li>
             </ul>
             <!-- //staff_list -->
         </div>
+
+        <?php include('template/interview_modal.php'); ?>
+    </section>
+    <!-- //staff_interview -->
+
+    <section id="crosstalk">
+        <div class="container">
+            <h2 class="sec_ttl fadeUp duration1">
+                CLOSS TALK
+                <small>
+                クロストーク
+                </small>
+            </h2>
+
+            <ul class="staff_list flex">
+                <li class="fadeUp duration2">
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk01.jpg" alt="" class="pc">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/staff_img01_sp.jpg" alt="" class="sp">
+                    </figure>
+                    <div class="staff_text flex">
+                        <div class="staff_name">
+                            <h3>CLOSSTALK 01</h3>
+                            <p>
+                                <span>お客様にもこの“温かさ”は伝わっているはず</span>
+                            </p>
+                        </div>
+                        <div class="modal_open staff_link crosstalk_open flex">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/read_arrow.svg" alt=""><span>MORE</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="fadeUp duration3">
+                    <figure>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk02.jpg" alt="" class="pc">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/staff_img02_sp.jpg" alt="" class="sp">
+                    </figure>
+                    <div class="staff_text flex">
+                        <div class="staff_name">
+                            <h3>CLOSSTALK 02</h3>
+                            <p>
+                                <span>気付いたらふたりで考えている、ramphyのこと</span>
+                            </p>
+                        </div>
+                        <div class="modal_open staff_link crosstalk_open flex">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/read_arrow.svg" alt=""><span>MORE</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- //staff_list -->
+        </div>
+
+        <?php include('template/crosstalk.php'); ?>
     </section>
     <!-- //staff_interview -->
 </div>
@@ -281,105 +342,68 @@
 
                 <dl class="flex">
                     <dt>会社名</dt>
-                    <dd>株式会社THREE</dd>
+                    <dd>合同会社ramphy</dd>
                 </dl>
 
                 <dl class="flex">
-                    <dt>雇用形態</dt>
-                    <dd>正社員/アルバイト</dd>
+                    <dt>募集職種</dt>
+                    <dd>アシスタント</dd>
                 </dl>
                 <dl class="flex">
-                    <dt>雇用形態</dt>
+                    <dt>資格</dt>
                     <dd>
-                        スタイリスト/アシスタント<br>
-                        アイリスト/アイブロウリスト<br>
-                        キッチン（アルバイト）/ホール（アルバイト）
+                        高卒以上（美容師免許有選格者）
                     </dd>
                 </dl>
 
                 <dl class="flex">
                     <dt>給与</dt>
                     <dd>
-                        【スタイリスト】基本給〇〇万+役職手当5万円～10万円,SNS手当,店販手当,求人手当,技術手当5,000円～1万円<br><br>
-
-                        【アシスタント】基本給22万+役職手当5万円～10万円,SNS手当,店販手当,求人手当,技術手当5,000円～1万円<br>
-                        ※研修期間あり：1〜6ヶ月<br><br>
-
-                        【アルバイト】時給1,100円〜<br>
-                        賄い付き,出勤日数に応じてボーナスあり
+                        ¥190,000 ＋皆動手路、住宅手当、目標達成手当、商品手当、交通費
+                    </dd>
+                </dl>
+                <dl class="flex">
+                    <dt>待遇</dt>
+                    <dd>
+                        社会保険完備、随時昇給、賞与年２回
+                    </dd>
+                </dl>
+                <dl class="flex">
+                    <dt>休日休暇</dt>
+                    <dd>
+                        完全週休2日（月1日曜日休み有り）＋夏季休暇、冬季休暇、有給休暇
+                    </dd>
+                </dl>
+                <dl class="flex">
+                    <dt>採用人数</dt>
+                    <dd>
+                        随時開催（募集枠が埋まり次第締切となります）
+                    </dd>
+                </dl>
+                <dl class="flex">
+                    <dt>試験内容</dt>
+                    <dd>
+                        書類審査、面接２回、サロン実習
+                    </dd>
+                </dl>
+                <dl class="flex">
+                    <dt>面接持ち物</dt>
+                    <dd>
+                        履歴書、成績証明書
                     </dd>
                 </dl>
                 <dl class="flex">
                     <dt>勤務地</dt>
                     <dd>
                         <div>
-                            <p>tote.</p>
-                            <span>岐阜県各務原市那加前野町４丁目175</span>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.1907612902237!2d136.577466515239!3d34.95182718037064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038d318d71e3ad%3A0xf786f46dc7cd7707!2z44OU44Oz44Kv44OZ44Or44OZ44OD44OI!5e0!3m2!1sja!2sjp!4v1662075765222!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <p>ramphy hair atelier（ランフィーヘアアトリエ）</p>
+                            <span>愛知県春日井市如意申町5-10-22</span>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.2148659279596!2d136.9497031757685!3d35.25090997272929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600372463eb2a94f%3A0x9d39422f0da9e532!2z44CSNDg2LTA5MTgg5oSb55-l55yM5pil5pel5LqV5biC5aaC5oSP55Sz55S677yV5LiB55uu77yR77yQ4oiS77yS77yS!5e0!3m2!1sja!2sjp!4v1702611563088!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <div>
-                            <p>yate'</p>
-                            <span>岐阜県岐阜市田神10-17</span>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.1907612902237!2d136.577466515239!3d34.95182718037064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60038d318d71e3ad%3A0xf786f46dc7cd7707!2z44OU44Oz44Kv44OZ44Or44OZ44OD44OI!5e0!3m2!1sja!2sjp!4v1662075765222!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div>
-                            <p>RAF</p>
-                            <span>岐阜市岩栄町2-17 三榮ビル1F</span>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.4933529735176!2d136.78164907577602!3d35.41780687267339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003a9464517d7a9%3A0x47cf85b9d0d79cca!2z54S86IKJUkFG!5e0!3m2!1sja!2sjp!4v1696457149559!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+
                     </dd>
                 </dl>
 
-                <dl class="flex">
-                    <dt>勤務時間</dt>
-                    <dd>
-                        <div>
-                            <p class="second">tote./yate’</p>
-                            月〜土　9:00 - 19:30<br>
-                            日祝日　9:00 - 19:00
-                        </div>
-                        <div>
-                            <p>RAF</p>
-                            17:00～24:00(L.O.23:00) ／ 第一,第三火曜定休日
-                        </div>
-                    </dd>z
-                </dl>
-
-                <dl class="flex">
-                    <dt>休日</dt>
-                    <dd>
-                        ・完全週休2日制／年間休日数110日／有給10日<br>
-                        ・年末年始休暇（5日）<br>
-                        ・介護休暇（応相談）<br>
-                        ・産前・産後休暇（最長1年）<br>
-                        ・育児休暇（最長3年）<br>
-                        ・慶弔休暇（応相談）<br>
-                        ・アニバーサリー休暇（新婚旅行期間）
-                    </dd>
-                </dl>
-
-
-                <dl class="flex">
-                    <dt>待遇</dt>
-                    <dd>
-                        ・社会保険完備<br>
-                        （雇用保険、労災保険、厚生年金、健康保険）<br>
-                        ・健康診断<br>
-                        ・食事の提供、費用補助<br>
-                        ・結婚祝い金<br>
-                        ・死亡時弔慰金<br>
-                        ・出産祝い金<br>
-                        ・研修、セミナー参加の費用補助<br>
-                        ・副業可能<br>
-                        ・イベント開催の費用補助<br>
-                        ・部活、サークル活動の費用補助<br>
-                        ・運動施設、保養所利用の費用補助<br>
-                        ・社員旅行<br>
-                        ・社内預金制度<br>
-                        ・MVPなど社内称賛制度<br>
-                        ・社員割引
-                    </dd>
-                </dl>
 
 
             </div>
@@ -389,121 +413,84 @@
     </section>
     <!-- //requirements -->
 
-    <section id="brand">
-        <div class="brand_container">
-            <h2 class="sec_ttl">
-                BRANDS
-                <small>
-                店舗一覧
-                </small>
-            </h2>
-            <div class="flex">
-                <div class="brand_item">
-                    <div class="brand_thumb item1"></div>
-                    <div class="brand_info">
-                        <h3>
-                            <span>tote.</span>
-                            <small>トテ</small>
-                        </h3>
-                        <p>
-                            〒501-0026 岐阜県各務原市那加前野町4-175<br>
-                            tel.<a href="tel:0582609123">058-260-9123</a>
-                        </p>
-
-                        <div class="flex">
-                            <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/seat_icon.svg" alt="" class="">
-                                <span>12</span>
-                            </div>
-
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/brand_open.svg" alt="" class="">
-                        </div>
-
-                        <div class="cat">
-                            <span>美容室</span>
-                        </div>
-                    </div>
-                    <!-- //brand_info -->
-                </div>
-                <!-- //brand_item -->
-                
-                <div class="brand_item">
-                    <div class="brand_thumb item1"></div>
-                    <div class="brand_info">
-                        <h3>
-                            <span>tote.</span>
-                            <small>トテ</small>
-                        </h3>
-                        <p>
-                            〒501-0026 岐阜県各務原市那加前野町4-175<br>
-                            tel.<a href="tel:0582609123">058-260-9123</a>
-                        </p>
-
-                        <div class="flex">
-                            <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/seat_icon.svg" alt="" class="">
-                                <span>12</span>
-                            </div>
-
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/brand_open.svg" alt="" class="">
-                        </div>
-
-                        <div class="cat">
-                            <span>美容室</span>
-                        </div>
-                    </div>
-                    <!-- //brand_info -->
-                </div>
-                <!-- //brand_item -->
-                <div class="brand_item">
-                    <div class="brand_thumb item1"></div>
-                    <div class="brand_info">
-                        <h3>
-                            <span>tote.</span>
-                            <small>トテ</small>
-                        </h3>
-                        <p>
-                            〒501-0026 岐阜県各務原市那加前野町4-175<br>
-                            tel.<a href="tel:0582609123">058-260-9123</a>
-                        </p>
-
-                        <div class="flex">
-                            <div>
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/seat_icon.svg" alt="" class="">
-                                <span>12</span>
-                            </div>
-
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/brand_open.svg" alt="" class="">
-                        </div>
-
-                        <div class="cat">
-                            <span>美容室</span>
-                        </div>
-                    </div>
-                    <!-- //brand_info -->
-                </div>
-                <!-- //brand_item -->
-            </div>
-        </div>
-    </section>
-
-    <section id="entry">
+    <section id="salon">
         <div class="container">
             <h2 class="sec_ttl">
-                ENTRY
+                SALON
                 <small>
-                エントリー
+                サロン情報
                 </small>
             </h2>
 
-            <p>下記エントリーフォームから必要事項記入の上、<br class="sp">送信をお願いします。</p>
+            <div class="salon_container flex">
+                <figure>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/salon_img.jpg" alt="">
+                </figure>
 
-            <div class="entryform_wrapper">
-                <?php echo do_shortcode('[contact-form-7 id="141" title="PINK VELVET様お問い合わせフォーム"]'); ?>
+                <div class="salon_info">
+                    <h3>ramphy</h3>
+                    <dl class="flex">
+                        <dt>住所</dt>
+                        <dd>
+                            〒486-0918 <br>
+                            愛知県春日井市如意申町5-10-22
+                        </dd>
+                    </dl>
+                    <dl class="flex">
+                        <dt>TEL</dt>
+                        <dd>0568-93-6719</dd>
+                    </dl>
+                    <dl class="flex">
+                        <dt>営業時間</dt>
+                        <dd>
+                            火・水・木：9:00～19:00<br>
+                            金：12:00〜20:00<br>
+                            土：9:00～19:00<br>
+                            日：9:00～18:00
+                        </dd>
+                    </dl>
+                    <dl class="flex">
+                        <dt>定休日</dt>
+                        <dd>
+                            第1、2、4月曜火曜<br>
+                            第3日曜月曜
+                        </dd>
+                    </dl>
+                    <dl class="flex">
+                        <dt>アクセス</dt>
+                        <dd>JR勝川駅下車から、小牧方面（バス）→ 広田公園西下車 → 徒歩1分</dd>
+                    </dl>
+                </div>
             </div>
-            <!-- //entryform_wrapper -->
         </div>
     </section>
+
+    <section id="entry_dm">
+        <div class="container">
+            <div class="flex">
+                <div class="entry_img"></div>
+                <div class="entry_content">
+                    <h2 class="sec_ttl">
+                        ENTRY
+                        <small>
+                        エントリー
+                        </small>
+                    </h2>
+
+                    <a href="/" target="_blank" class="entry_btn">
+                        <div class="flex">ご応募はDMから<img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt=""></div>
+                    </a>
+                    <a href="" class="entry_insta flex">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="">
+                        <span>ramphy_hair_atelier</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <section id="contact">
         <div class="container">

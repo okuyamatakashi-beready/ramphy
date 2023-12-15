@@ -34,3 +34,10 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('./fonts/georgia.woff') format('woff');
+    }
+

@@ -1,1 +1,6 @@
-<svg height="81.348" viewBox="0 0 9.199 81.348" width="9.199" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#fd6452" stroke-linecap="round" stroke-linejoin="round"><path d="m18 7.5v80.141" transform="translate(-17.293 -7)"/><path d="m25.786 18-7.786 8.175" transform="translate(-17.293 54.466)"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="9.199" height="81.348" viewBox="0 0 9.199 81.348">
+  <g id="flow_arrow_sp" transform="translate(0.707 0.5)">
+    <path id="パス_9591" data-name="パス 9591" d="M18,7.5V87.641" transform="translate(-18 -7.5)" fill="none" stroke="#6e2600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="パス_9592" data-name="パス 9592" d="M25.786,18,18,26.175" transform="translate(-18 53.966)" fill="none" stroke="#6e2600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

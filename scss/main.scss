@@ -327,20 +327,20 @@ mid section
 	position: relative;
 	padding-top: 7.08333%;
 
-	&::before {
-		content: "";
-		background-image: url(../../images/recruit/mid_mask.png);
-		background-position: center center;
-		background-repeat: no-repeat;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		z-index: 1;
-		opacity: 0.4;
-	}
+	// &::before {
+	// 	content: "";
+	// 	background-image: url(../../images/recruit/mid_mask.png);
+	// 	background-position: center center;
+	// 	background-repeat: no-repeat;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	background-size: cover;
+	// 	z-index: 1;
+	// 	opacity: 0.4;
+	// }
 }
 
 /*********************************
@@ -426,6 +426,9 @@ ul.staff_list {
 					letter-spacing: 0.2em;
 					line-height: 1.75em;
 					padding-bottom: 15px;
+					@media screen and (max-width: 768px) {
+						padding-bottom: 0;
+					}
 				}
 
 				p {
@@ -438,11 +441,14 @@ ul.staff_list {
 						background-color: #0570B4;
 						padding: 5px;
 						color: #fff;
+						@media screen and (max-width: 768px) {
+							padding: 0;
+						}
 					}
 				}
 			}
 
-			a {
+			.staff_link {
 				color: #00829E;
 				font-size: 16px;
 				letter-spacing: 0.2em;
@@ -456,7 +462,7 @@ ul.staff_list {
 					background: #00829E;
 					display: block;
 					position: absolute;
-					bottom: -10px;
+					bottom: 0px;
 					left: 0;
 				}
 
@@ -467,6 +473,7 @@ ul.staff_list {
 		}
 	}
 }
+
 
 /*********************************
     FLOW
@@ -546,21 +553,21 @@ ul.staff_list {
 	position: relative;
 	background-color: #009E95;
 
-	&::before {
-		content: "";
-		background-image: url(../../images/recruit/proud_mask.jpg);
-		background-position: center center;
-		background-repeat: no-repeat;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-size: cover;
-		z-index: 1;
-		opacity: 0.3;
-		mix-blend-mode: multiply;
-	}
+	// &::before {
+	// 	content: "";
+	// 	background-image: url(../../images/recruit/proud_mask.jpg);
+	// 	background-position: center center;
+	// 	background-repeat: no-repeat;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	background-size: cover;
+	// 	z-index: 1;
+	// 	opacity: 0.3;
+	// 	mix-blend-mode: multiply;
+	// }
 }
 
 /*********************************
@@ -696,7 +703,7 @@ ul.staff_list {
 
 		span {
 			display: inline-block;
-			margin-bottom: 2%;
+			margin-bottom: 4rem;
 
 			&.under {
 				margin-bottom: 0;
@@ -713,10 +720,8 @@ ul.staff_list {
 			position: relative;
 			margin-bottom: 20px;
 			p {
-				position: absolute;
-				left: -75px;
-				top: 0;
-				text-align: center;
+				text-align: left;
+				margin-bottom: 10px;
 			}
 			p.second {
 				left: -20%;
@@ -724,6 +729,7 @@ ul.staff_list {
 		}
 	}
 }
+
 
 /*********************************
     brand
@@ -1100,8 +1106,18 @@ ul.staff_list {
 		margin-top: 20px;
 
 		li .staff_text {
+			@media screen and (max-width: 768px) {
+				flex-wrap: wrap;
+				justify-content: flex-end;
+			}
 			.staff_name p {
 				font-size: 12px;
+				@media screen and (max-width: 768px) {
+					line-height: 2em;
+					margin-bottom: 20px;
+				}
+				
+				
 			}
 
 			flex-wrap: nowrap;
@@ -1365,7 +1381,9 @@ $mainColor: #6E2600;
 			position: absolute;
 			bottom: 20%;
 			@media screen and (max-width: 768px) {
-				display: none;
+				width: 200px;
+				bottom: auto;
+				top: 20%;
 			}
 		}
 	}
@@ -1406,6 +1424,8 @@ $mainColor: #6E2600;
 			margin-top: 0rem;
 			@media screen and (max-width: 768px) {
 				width: 92%;
+				margin-right: auto;
+				margin-left: 0;
 			}
 		}
 		@media screen and (max-width: 768px) {
@@ -1430,7 +1450,7 @@ $mainColor: #6E2600;
 			@media screen and (max-width: 768px) {
 				margin-left: auto;
 				margin-right: auto;
-				background-color: #F4F4F4;
+				background-color: transparent;
 				width: 84%;
 				padding-left: 0;
 				margin-top: 40px;
@@ -1445,6 +1465,10 @@ $mainColor: #6E2600;
 			line-height: 1.375;
 			display: block;
 			font-weight: normal;
+			@media screen and (max-width: 768px) {
+				font-size: 20px;
+				line-height: 1.6;
+			}
 		}
 		p {
 			width: auto;
@@ -1551,14 +1575,336 @@ ul.staff_list {
 				}
 			}
 
-			a {
+			.staff_link {
 				color: $mainColor;
-
+				width: 90px;
 				&::after {
 					background: $mainColor;
 
 				}
 
+			}
+		}
+	}
+}
+/*********************************
+	modal
+*********************************/
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+}
+.no_scroll {
+	overflow: hidden;
+}
+.interview_modal {
+    .staff_one {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        width: 60%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 80vh;
+        overflow-y: scroll;
+        @media screen and (max-width: 768px) {
+            width: 90%;
+            height: 95vh;
+            background-color: #fff;
+        }
+        .close_btn {
+            position: fixed;
+            top: 13%;
+            right: 23%;
+            cursor: pointer;
+            @media screen and (max-width: 768px) {
+                top: 30px;
+                right: 30px;
+            }
+            img {
+                width: 30px;
+                @media screen and (max-width: 768px) {
+                    width: 20px;
+                }
+            }
+        }
+        .staff_modal_inner {
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 5% 20%;
+            @media screen and (max-width: 768px) {
+                height: 100%;
+                padding: 5% 15% 5% 5%;
+            }
+            figure.staff_modal_thumb {
+                margin-bottom: 40px;
+                @media screen and (max-width: 768px) {
+                    margin-bottom: 0;
+                }
+            }
+            figure {
+                img {
+                    width: 100%;
+                }
+                figcaption {
+                    small {
+                        font-size: 12px;
+                        padding-top: 7px;
+                        padding-bottom: 11px;
+                        display: inline-block;
+                        
+                        span {
+                            padding-left: 15px;
+                        }
+                    }
+                    p {
+                        font-size: 18px;
+                        padding-bottom: 30px;
+                        span {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            ul {
+                li {
+                    figure {
+                        width: 60%;
+                        &.answer {
+                            margin-left: auto;
+                            @media screen and (max-width: 768px) {
+                                margin-bottom: 30px;
+                            }
+                        }
+                        @media screen and (max-width: 768px) {
+                            width: 85%;
+                        }
+                    }
+                    figure.insert_img {
+                        width: 80%;
+                        margin: 40px auto;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+/*********************************
+	modal
+*********************************/
+
+
+.modal {
+    .modal_inner {
+        display: none;
+        position: fixed;
+        z-index: 5000;
+        width: 80%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 45vw;
+        box-sizing: border-box;
+        padding: 4% 5% 4% 5%;
+        background-color: #fff;
+		h3 {
+			font-size: clamp(14px, 1.6rem, 16px);
+			letter-spacing: 0.2em;
+			line-height: 1.75em;
+			padding-bottom: 15px;
+			color: $mainColor;
+		}
+        @media screen and (max-width: 768px) {
+            height: 80vh;
+            padding: 50px 20px 30px 20px;
+			width: 90%;
+        }
+        .close_btn {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 30px;
+            cursor: pointer;
+            @media screen and (max-width: 768px) {
+                right: 20px;
+                top: 20px;
+            }
+            img {
+                width: 100%;
+                @media screen and (max-width: 768px) {
+                    width: 20px;
+                }
+            }
+        }
+        .flex {
+            justify-content: flex-start;
+            align-items: flex-start;
+            @media screen and (max-width: 768px) {
+                flex-wrap: wrap;
+                h3.sp {
+                    font-size: 24px;
+                    margin-bottom: 21px;
+                    font-weight: 500;
+                    padding-top: 50px;
+                }
+            }
+            .modal_thumb {
+                width: 47rem;
+				.modal_thumb_img {
+					@include v.bg;
+					width: 100%;
+					padding-top: 53rem;
+					margin-bottom: 20px;
+					@media screen and (max-width: 768px) {
+						height: 225px;
+					}
+				}
+				.flex {
+					align-items: center;
+					@media screen and (max-width: 768px) {
+						flex-wrap: wrap;
+					}
+				}
+				span.cat {
+					color: #DE6C99;
+					border: 2px solid #DE6C99;
+					border-radius: 5px;
+					padding: 2px 8px;
+					color: #DE6C99;
+					font-size: clamp(12px, 1.6rem, 16px);
+					letter-spacing: 0.05em;
+					display: inline-block;
+					margin-right: 20px;
+				}
+				p {
+					font-size: clamp(12px, 1.6rem, 16px);
+					span {
+						background-color: $mainColor;
+						color: #fff;
+						padding: 0 5px;
+						display: inline-block;
+						margin-bottom: 5px;
+					}
+					@media screen and (max-width: 768px) {
+						width: 100%;
+						font-size: 16px;
+						margin-top: 10px;
+					}
+				}
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .salon_info {
+                margin-left: 5%;
+                width: 77rem;
+				overflow-y: scroll;
+				height: 68rem;
+				padding-right: 30px;
+				box-sizing: border-box;
+                @media screen and (max-width: 768px) {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-top: 30px;
+					height: auto;
+					overflow-y: visible;
+                }
+                h3 {
+                    letter-spacing: 0.1em;
+                    font-size: clamp(26px,30rem,38px);
+                    font-weight: 500;
+                    margin-bottom: 30px;
+					color: $mainColor;
+					margin-top: 2.4rem;
+					margin-bottom: 7rem;
+                }
+                dl {
+                    margin-bottom: 30px;
+					padding-bottom: 20px;
+					border-bottom: 1px solid $mainColor;
+					&:last-of-type {
+						border-bottom: none;
+					}
+                    @media screen and (max-width: 768px) {}
+                    dt {
+                        width: 100%;
+						font-size: clamp(16px,2rem,20px);
+						letter-spacing: 0.05em;
+						margin-bottom: 20px;
+						color: $mainColor;
+						font-weight: bold;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                            font-size: 16px;
+							margin-bottom: 10px;
+                        }
+                    }
+                    dd {
+                        width: 100%;
+						font-size: clamp(13px,1.6rem,16px);
+						line-height: 2;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .modal_matsudo {
+                background-image: url(../images/chiba/chiba_matsudo.jpg);
+            }
+        }
+    }
+}
+
+
+/*********************************
+    Crosstalk
+*********************************/
+#crosstalk {
+	padding-bottom: 15rem;
+	h2 {
+		text-align: center;
+		color: $mainColor
+	}
+	ul.staff_list {
+		li {
+			color: $mainColor;
+			.staff_text {
+				.staff_name {
+	
+					p {
+	
+						span {
+							background-color: transparent;
+							color: $mainColor;
+						}
+					}
+				}
+	
+				.staff_link {
+					color: $mainColor;
+	
+					&::after {
+						background: $mainColor;
+	
+					}
+	
+				}
 			}
 		}
 	}
@@ -1655,6 +2001,124 @@ $proudColor: #FAF3E7;
 }
 
 
+/*********************************
+    SALON
+*********************************/
+#salon {
+	padding-top: 15rem;
+	.salon_container {
+		align-items: flex-start;
+	}
+	h2 {
+		color: $mainColor;
+		text-align: center;
+		margin-bottom: 6rem;
+	}
+	figure {
+		width: 45.5%;
+		@media screen and (max-width: 768px) {
+			width: 100%;
+			margin-bottom: 27px;
+		}
+		img {
+			width: 100%;
+		}
+	}
+	.salon_info {
+		width: 49.35%;
+		@media screen and (max-width: 768px) {
+			width: 100%;
+		}
+		h3 {
+			font-size: clamp(15px,2rem,25px);
+			margin-bottom: 5rem;
+			line-height: 1;
+			font-weight: normal;
+		}
+		dl {
+			font-size: clamp(13px,1.5rem,16px);
+			letter-spacing: 0.1em;
+			line-height: 2.125em;
+			align-items: flex-start;
+			dt {
+				width: 20%;
+				
+			}
+			dd {
+				width: 80%;
+				box-sizing: border-box;
+				padding-left: 4rem;
+				border-left: 1px solid #000000;
+				padding-bottom: 5rem;
+			}
+			&:last-of-type {
+				dd {
+					padding-bottom: 2rem;
+				}
+			}
+		}
+	}
+}
+
+/*********************************
+    ENTRY DM
+*********************************/
+
+#entry_dm {
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	.container {
+		.flex {
+			align-items:stretch;
+			.entry_img {
+				@include v.bg;
+				background-image: url(./../images/entry_dm_bg.jpg);
+				width: 54%;
+				order: 2;
+			}
+			.entry_content {
+				width: 46%;
+				box-sizing: border-box;
+				padding-top: 11rem;
+				padding-left: 14rem;
+				padding-right: 14rem;
+				padding-bottom: 11rem;
+				background-color: #fff;
+				order: 1;
+				h2 {
+					color: $mainColor;
+				}
+				a.entry_btn {
+					width: 100%;
+					color: #fff;
+					background-color: $mainColor;
+					position: relative;
+					border-radius: 50px;
+					padding: 3.5rem 0;
+					display: block;
+					margin-top: 6rem;
+					font-size: clamp(14px,1.8rem,23px);
+					.flex {
+						justify-content: space-around;
+					}
+
+				}
+				.entry_insta {
+					text-align: center;
+					color: $mainColor;
+					justify-content: center;
+					font-size: clamp(14px,1.6rem,20px);
+					margin-top: 20px;
+					img {
+						width: 6%;
+						min-width: 20px;
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}
 
 /*********************************
     ENTRY
@@ -1750,12 +2214,14 @@ $entryBgColor: #F4F4F4;
 	}
 }
 
+
 /*********************************
     FOOTER
 *********************************/
 $footerBg: #EAEAEA;
 #footer {
-    background-color: $footerBg;
+    background-image: url(./../images/footer_bg.jpg);
+	@include v.bg;
 	@media screen and (max-width: 768px) {
 		padding-top: 30px;
 	}
@@ -1764,6 +2230,8 @@ $footerBg: #EAEAEA;
         h3 {
             color: $mainColor;
 			font-weight: normal;
+			font-family: 'Georgia Regular';
+			font-size: clamp(40px,4.16rem,52px);
         }
 
         ul {
@@ -1780,13 +2248,14 @@ $footerBg: #EAEAEA;
         small {
             color: $mainColor;
         }
-		ul {
-			border-bottom: 1px solid $mainColor;
-		}
+
     }
 
     .ft_right {
 		border-left: 1px solid $mainColor;
+		padding-top: 7.5rem;
+		padding-bottom: calc(7rem - 40px);
+		padding-left: 11rem;
         h3 {
             p {
                 color: $mainColor;
@@ -1809,6 +2278,7 @@ $footerBg: #EAEAEA;
             b {
                 color: $mainColor;
 				font-family: 'Roboto', sans-serif;
+				font-weight: normal;
             }
 
             p {
@@ -1818,6 +2288,11 @@ $footerBg: #EAEAEA;
 				justify-content: flex-start;
 				a {
 					margin-right: 20px;
+					border-radius: 50px;
+					width: 320px;
+					justify-content: center;
+					border: 2px solid $mainColor;
+					padding: 2.5rem 0;
 					span {
 						display: inline-block;
 						font-size: 16px;

@@ -188,13 +188,61 @@ $(function(){
 		],
 	});
 });
+
+
 /*********************************
-	matchHeight
+	モーダル
 *********************************/
 
-const locoScroll = new LocomotiveScroll({
-	el: document.querySelector('[data-scroll-container]'),
-	smooth: true,
+$(function () {
+	$('.interview_open').click(function () {
+		$("body").addClass("no_scroll");
+		var id = $(this).data('id-interview');
+		$('#overlay_interview, .interview_modal_inner[data-id-interview="modal' + id + '"]').fadeIn().css('display','block');
+	});
+		
+	$('.js-close , #overlay_interview').click(function () {
+		$("body").removeClass("no_scroll");
+		$('#overlay_interview, .interview_modal_inner').fadeOut();
+	});
+});
+
+$(function(){
+	$('.interview_modal_inner').each(function(i){
+		$(this).attr('data-id-interview','modal' + (i+1));
+	});
+  });
+  $(function(){
+	$('ul.staff_list li .staff_text .interview_open').each(function(i){
+		$(this).attr('data-id-interview', + (i+1));
+	});
   });
 
 
+  /*********************************
+	クロストーク
+*********************************/
+
+$(function () {
+	$('.crosstalk_open').click(function () {
+		$("body").addClass("no_scroll");
+		var id = $(this).data('id-crosstalk');
+		$('#overlay_crosstalk, .crosstalk_modal_inner[data-id-crosstalk="modal' + id + '"]').fadeIn().css('display','block');
+	});
+		
+	$('.js-close , #overlay_crosstalk').click(function () {
+		$("body").removeClass("no_scroll");
+		$('#overlay_crosstalk, .crosstalk_modal_inner').fadeOut();
+	});
+});
+
+$(function(){
+	$('.crosstalk_modal_inner').each(function(i){
+		$(this).attr('data-id-crosstalk','modal' + (i+1));
+	});
+  });
+  $(function(){
+	$('ul.staff_list li .staff_text .crosstalk_open').each(function(i){
+		$(this).attr('data-id-crosstalk', + (i+1));
+	});
+  });
