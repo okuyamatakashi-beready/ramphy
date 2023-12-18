@@ -1003,6 +1003,7 @@ div.news_list .news_list_child h3 a {
   }
   .header_content {
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
   .header_right {
     order: 1;
@@ -1034,7 +1035,8 @@ div.news_list .news_list_child h3 a {
 }
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .header_left {
-    height: auto;
+    height: 70vh;
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1190,12 +1192,19 @@ div.news_list .news_list_child h3 a {
   }
   #footer .ft_left ul {
     width: 100%;
-    border-bottom: 1px solid #0570B4;
+    border-bottom: 1px solid #6E2600;
     padding-bottom: 25px;
   }
   #footer .ft_left ul li {
     width: 145px;
   }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  #footer .ft_left ul li {
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 768px) {
   #footer .ft_right {
     padding-left: 0;
   }
@@ -2695,7 +2704,7 @@ ul.staff_list li .staff_text .staff_link::after {
   right: 0;
   bottom: 0;
   margin: auto;
-  height: 55vw;
+  height: 45vw;
   box-sizing: border-box;
   padding: 4% 5% 4% 5%;
   background-color: #fff;
@@ -2845,7 +2854,7 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 .modal .modal_inner > .flex .salon_info h3 {
   letter-spacing: 0.1em;
-  font-size: clamp(26px, 30rem, 38px);
+  font-size: clamp(26px, 30rem, 33px);
   font-weight: 500;
   margin-bottom: 30px;
   color: #6E2600;
@@ -3401,6 +3410,16 @@ ul.staff_list li .staff_text .staff_link::after {
   width: 54%;
   order: 2;
 }
+@media screen and (max-width: 768px) {
+  #entry_dm .container .flex .entry_img {
+    order: 1;
+    height: 226px;
+    width: 100vw; /* ビューポートの幅に基づいて幅を設定 */
+    position: absolute; /* 位置を調整 */
+    left: 50%; /* 中央に配置 */
+    transform: translateX(-50%);
+  }
+}
 #entry_dm .container .flex .entry_content {
   width: 46%;
   box-sizing: border-box;
@@ -3411,8 +3430,27 @@ ul.staff_list li .staff_text .staff_link::after {
   background-color: #fff;
   order: 1;
 }
+@media screen and (max-width: 768px) {
+  #entry_dm .container .flex .entry_content {
+    position: relative;
+    z-index: 10;
+    margin-top: 140px;
+    width: 100%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
 #entry_dm .container .flex .entry_content h2 {
   color: #6E2600;
+}
+@media screen and (max-width: 768px) {
+  #entry_dm .container .flex .entry_content h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  #entry_dm .container .flex .entry_content h2 small {
+    font-size: 12px;
+  }
 }
 #entry_dm .container .flex .entry_content a.entry_btn {
   width: 100%;
@@ -3427,6 +3465,23 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 #entry_dm .container .flex .entry_content a.entry_btn .flex {
   justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  #entry_dm .container .flex .entry_content a.entry_btn .flex {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  #entry_dm .container .flex .entry_content a.entry_btn {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    padding: 25px 0;
+    margin-top: 25px;
+  }
+  #entry_dm .container .flex .entry_content a.entry_btn img {
+    width: 7px;
+    margin-left: 15px;
+  }
 }
 #entry_dm .container .flex .entry_content .entry_insta {
   text-align: center;
@@ -3499,7 +3554,9 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 @media screen and (max-width: 768px) {
   #contact {
-    display: none;
+    display: block;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
 }
 #contact h2 {
@@ -3510,6 +3567,12 @@ ul.staff_list li .staff_text .staff_link::after {
   font-size: clamp(12px, 1.6rem, 20px);
   margin-top: 4rem;
   margin-bottom: 6rem;
+}
+@media screen and (max-width: 768px) {
+  #contact p {
+    margin-top: 24px;
+    margin-bottom: 30px;
+  }
 }
 #contact a.common_btn {
   border: 1px solid #6E2600;
@@ -3524,6 +3587,14 @@ ul.staff_list li .staff_text .staff_link::after {
   #contact ul {
     width: 100%;
   }
+  #contact ul li {
+    width: 48%;
+  }
+  #contact ul li a {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+  }
 }
 
 /*********************************
@@ -3537,7 +3608,9 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 @media screen and (max-width: 768px) {
   #footer {
-    padding-top: 30px;
+    padding-top: 50px;
+    font-size: 30px;
+    letter-spacing: 0.06em;
   }
 }
 #footer .ft_left h3 {
@@ -3588,9 +3661,23 @@ ul.staff_list li .staff_text .staff_link::after {
   justify-content: center;
   border: 2px solid #6E2600;
   padding: 2.5rem 0;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  #footer .ft_right ul li .insta_list a {
+    padding: 25px 0;
+    margin-left: 0;
+    margin-right: auto;
+    top: 0;
+  }
 }
 #footer .ft_right ul li .insta_list a span {
   display: inline-block;
   font-size: 16px;
   padding-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  #footer .ft_right ul li .insta_list a span {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=main.css.map */

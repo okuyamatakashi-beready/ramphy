@@ -8,7 +8,7 @@
 
             <ul class="flex">
                 <li>
-                    <a href="/">ramphyについて</a>
+                    <a href="#message">ramphyについて</a>
                 </li>
                 <li>
                     <a href="#howto">ramphyの大切にすること</a>
@@ -26,10 +26,10 @@
                     <a href="#requirements">募集要項</a>
                 </li>
                 <li>
-                    <a href="#requirements">会社概要</a>
+                    <a href="#salon">会社概要</a>
                 </li>
                 <li>
-                    <a href="#entry">エントリーフォーム</a>
+                    <a href="#entry_dm">エントリーフォーム</a>
                 </li>
 
             </ul>
@@ -46,7 +46,7 @@
                     <b>- FOLLOW ME</b>
                     <div class="flex insta_list">
                         <a href="https://www.instagram.com/tote_yate_official/" class="ft_insta flex" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="" class="pc">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="" class="">
                             <span>ramphy_hair_atelier</span>
                         </a>
                     </div>

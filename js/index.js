@@ -15,9 +15,9 @@ $(function(){
 	});
 });
 $(function(){
-	$(".crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dt").on("click", function() {
-	$(this).find('.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dd').slideToggle();
-	});
+    $(".crosstalk_modal_inner .crosstalk__prof-text dl dt").on("click", function() {
+        $(this).next('dd').slideToggle();
+    });
 });
 
 $('#toggle').on('click',function(){

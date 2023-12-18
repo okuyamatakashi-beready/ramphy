@@ -1719,7 +1719,7 @@ ul.staff_list {
         right: 0;
         bottom: 0;
         margin: auto;
-        height: 55vw;
+        height: 45vw;
         box-sizing: border-box;
         padding: 4% 5% 4% 5%;
         background-color: #fff;
@@ -1842,7 +1842,7 @@ ul.staff_list {
                 }
                 h3 {
                     letter-spacing: 0.1em;
-                    font-size: clamp(26px,30rem,38px);
+                    font-size: clamp(26px,30rem,33px);
                     font-weight: 500;
                     margin-bottom: 30px;
 					color: $mainColor;
@@ -2414,6 +2414,14 @@ $proudColor: #FAF3E7;
 				background-image: url(./../images/entry_dm_bg.jpg);
 				width: 54%;
 				order: 2;
+				@media screen and (max-width: 768px) {
+					order: 1;
+					height: 226px;
+					width: 100vw; /* ビューポートの幅に基づいて幅を設定 */
+					position: absolute; /* 位置を調整 */
+					left: 50%; /* 中央に配置 */
+					transform: translateX(-50%);
+				}
 			}
 			.entry_content {
 				width: 46%;
@@ -2424,8 +2432,23 @@ $proudColor: #FAF3E7;
 				padding-bottom: 11rem;
 				background-color: #fff;
 				order: 1;
+				@media screen and (max-width: 768px) {
+					position: relative;
+					z-index: 10;
+					margin-top: 140px;
+					width: 100%;
+					padding-top: 55px;
+					padding-bottom: 55px;
+				}
 				h2 {
 					color: $mainColor;
+					@media screen and (max-width: 768px) {
+						text-align: center;
+						font-size: 15px;
+						small {
+							font-size: 12px;
+						}
+					}
 				}
 				a.entry_btn {
 					width: 100%;
@@ -2439,6 +2462,19 @@ $proudColor: #FAF3E7;
 					font-size: clamp(14px,1.8rem,23px);
 					.flex {
 						justify-content: space-around;
+						@media screen and (max-width: 768px) {
+							justify-content: center;
+						}
+					}
+					@media screen and (max-width: 768px) {
+						font-size: 15px;
+						letter-spacing: 0.1em;
+						padding: 25px 0;
+						margin-top: 25px;
+						img {
+							width: 7px;
+							margin-left: 15px;
+						}
 					}
 
 				}
@@ -2528,16 +2564,25 @@ $entryBgColor: #F4F4F4;
 	padding-top: 10rem;
 	padding-bottom: 9rem;
 	@media screen and (max-width: 768px) {
-		display: none;
+		display: block;
+		padding-top: 55px;
+		padding-bottom: 55px;
 	}
 	h2 {
 		color: $mainColor;
+		@media screen and (max-width: 768px) {
+			
+		}
 	}
 	p {
 		color: $mainColor;
 		font-size: clamp(12px,1.6rem,20px);
 		margin-top: 4rem;
 		margin-bottom: 6rem;
+		@media screen and (max-width: 768px) {
+			margin-top: 24px;
+			margin-bottom: 30px;
+		}
 	}
 	a.common_btn {
 		border: 1px solid $mainColor;
@@ -2549,6 +2594,14 @@ $entryBgColor: #F4F4F4;
 		margin: auto;
 		@media screen and (max-width: 768px) {
 			width: 100%;
+			li {
+				width: 48%;
+			}
+			li a {
+				width: 100%;
+				font-size: 12px;
+				padding: 10px 0;
+			}
 		}
 	}
 }
@@ -2562,7 +2615,9 @@ $footerBg: #EAEAEA;
     background-image: url(./../images/footer_bg.jpg);
 	@include v.bg;
 	@media screen and (max-width: 768px) {
-		padding-top: 30px;
+		padding-top: 50px;
+		font-size: 30px;
+		letter-spacing: 0.06em;
 	}
     .ft_left {
 
@@ -2632,10 +2687,20 @@ $footerBg: #EAEAEA;
 					justify-content: center;
 					border: 2px solid $mainColor;
 					padding: 2.5rem 0;
+					position: relative;
+					@media screen and (max-width: 768px) {
+						padding: 25px 0;
+						margin-left: 0;
+						margin-right: auto;
+						top: 0;
+					}
 					span {
 						display: inline-block;
 						font-size: 16px;
 						padding-left: 10px;
+						@media screen and (max-width: 768px) {
+							font-size: 12px;
+						}
 					}
 				}
 			}
