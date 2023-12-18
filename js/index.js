@@ -14,6 +14,11 @@ $(function(){
 	$(this).find('dd.hidden_menu').slideToggle();
 	});
 });
+$(function(){
+	$(".crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dt").on("click", function() {
+	$(this).find('.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dd').slideToggle();
+	});
+});
 
 $('#toggle').on('click',function(){
 	$(this).toggleClass('open');

@@ -2692,7 +2692,7 @@ ul.staff_list li .staff_text .staff_link::after {
   right: 0;
   bottom: 0;
   margin: auto;
-  height: 45vw;
+  height: 55vw;
   box-sizing: border-box;
   padding: 4% 5% 4% 5%;
   background-color: #fff;
@@ -2732,25 +2732,25 @@ ul.staff_list li .staff_text .staff_link::after {
     width: 20px;
   }
 }
-.modal .modal_inner .flex {
+.modal .modal_inner > .flex {
   justify-content: flex-start;
   align-items: flex-start;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex {
+  .modal .modal_inner > .flex {
     flex-wrap: wrap;
   }
-  .modal .modal_inner .flex h3.sp {
+  .modal .modal_inner > .flex h3.sp {
     font-size: 24px;
     margin-bottom: 21px;
     font-weight: 500;
     padding-top: 50px;
   }
 }
-.modal .modal_inner .flex .modal_thumb {
+.modal .modal_inner > .flex .modal_thumb {
   width: 47rem;
 }
-.modal .modal_inner .flex .modal_thumb .modal_thumb_img {
+.modal .modal_inner > .flex .modal_thumb .modal_thumb_img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2759,19 +2759,19 @@ ul.staff_list li .staff_text .staff_link::after {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .modal_thumb .modal_thumb_img {
+  .modal .modal_inner > .flex .modal_thumb .modal_thumb_img {
     height: 225px;
   }
 }
-.modal .modal_inner .flex .modal_thumb .flex {
+.modal .modal_inner > .flex .modal_thumb .flex {
   align-items: center;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .modal_thumb .flex {
+  .modal .modal_inner > .flex .modal_thumb .flex {
     flex-wrap: wrap;
   }
 }
-.modal .modal_inner .flex .modal_thumb span.cat {
+.modal .modal_inner > .flex .modal_thumb span.cat {
   color: #DE6C99;
   border: 2px solid #DE6C99;
   border-radius: 5px;
@@ -2782,10 +2782,10 @@ ul.staff_list li .staff_text .staff_link::after {
   display: inline-block;
   margin-right: 20px;
 }
-.modal .modal_inner .flex .modal_thumb p {
+.modal .modal_inner > .flex .modal_thumb p {
   font-size: clamp(12px, 1.6rem, 16px);
 }
-.modal .modal_inner .flex .modal_thumb p span {
+.modal .modal_inner > .flex .modal_thumb p span {
   background-color: #6E2600;
   color: #fff;
   padding: 0 5px;
@@ -2793,19 +2793,19 @@ ul.staff_list li .staff_text .staff_link::after {
   margin-bottom: 5px;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .modal_thumb p {
+  .modal .modal_inner > .flex .modal_thumb p {
     width: 100%;
     font-size: 16px;
     margin-top: 10px;
   }
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .modal_thumb {
+  .modal .modal_inner > .flex .modal_thumb {
     width: 100%;
     height: auto;
   }
 }
-.modal .modal_inner .flex .salon_info {
+.modal .modal_inner > .flex .salon_info {
   margin-left: 5%;
   width: 77rem;
   overflow-y: scroll;
@@ -2814,7 +2814,7 @@ ul.staff_list li .staff_text .staff_link::after {
   box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .salon_info {
+  .modal .modal_inner > .flex .salon_info {
     width: 100%;
     margin-left: 0;
     margin-top: 30px;
@@ -2822,7 +2822,7 @@ ul.staff_list li .staff_text .staff_link::after {
     overflow-y: visible;
   }
 }
-.modal .modal_inner .flex .salon_info h3 {
+.modal .modal_inner > .flex .salon_info h3 {
   letter-spacing: 0.1em;
   font-size: clamp(26px, 30rem, 38px);
   font-weight: 500;
@@ -2831,15 +2831,15 @@ ul.staff_list li .staff_text .staff_link::after {
   margin-top: 2.4rem;
   margin-bottom: 7rem;
 }
-.modal .modal_inner .flex .salon_info dl {
+.modal .modal_inner > .flex .salon_info dl {
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #6E2600;
 }
-.modal .modal_inner .flex .salon_info dl:last-of-type {
+.modal .modal_inner > .flex .salon_info dl:last-of-type {
   border-bottom: none;
 }
-.modal .modal_inner .flex .salon_info dl dt {
+.modal .modal_inner > .flex .salon_info dl dt {
   width: 100%;
   font-size: clamp(16px, 2rem, 20px);
   letter-spacing: 0.05em;
@@ -2848,24 +2848,24 @@ ul.staff_list li .staff_text .staff_link::after {
   font-weight: bold;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .salon_info dl dt {
+  .modal .modal_inner > .flex .salon_info dl dt {
     width: 100%;
     font-size: 16px;
     margin-bottom: 10px;
   }
 }
-.modal .modal_inner .flex .salon_info dl dd {
+.modal .modal_inner > .flex .salon_info dl dd {
   width: 100%;
   font-size: clamp(13px, 1.6rem, 16px);
   line-height: 2;
 }
 @media screen and (max-width: 768px) {
-  .modal .modal_inner .flex .salon_info dl dd {
+  .modal .modal_inner > .flex .salon_info dl dd {
     width: 100%;
     font-size: 14px;
   }
 }
-.modal .modal_inner .flex .modal_matsudo {
+.modal .modal_inner > .flex .modal_matsudo {
   background-image: url(../images/chiba/chiba_matsudo.jpg);
 }
 
@@ -2891,6 +2891,320 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 #crosstalk ul.staff_list li .staff_text .staff_link::after {
   background: #6E2600;
+}
+
+/*********************************
+    Crosstalk modal
+*********************************/
+.crosstalk_modal_inner {
+  width: 60%;
+  overflow-y: scroll;
+}
+.crosstalk_modal_inner b.ttl {
+  display: block;
+  text-align: center;
+  color: #6E2600;
+  letter-spacing: 0.1em;
+  font-size: clamp(15px, 1.8rem, 22px);
+  margin-bottom: 6rem;
+  position: relative;
+}
+.crosstalk_modal_inner b.ttl span {
+  position: relative;
+}
+.crosstalk_modal_inner b.ttl span::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: #6E2600;
+  display: block;
+  position: absolute;
+  left: -30px;
+  bottom: 10px;
+  transform: rotate(45deg);
+}
+.crosstalk_modal_inner b.ttl span::after {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: #6E2600;
+  display: block;
+  position: absolute;
+  right: -30px;
+  bottom: 10px;
+  transform: rotate(-45deg);
+}
+.crosstalk_modal_inner .crosstalk__prof {
+  border-bottom: 3px dotted #6E2600;
+  margin-bottom: 6rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof {
+    margin-bottom: 40px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul {
+  width: 100%;
+  justify-content: space-around;
+  padding-bottom: 9rem;
+  margin-bottom: 6rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul {
+    margin-bottom: 0;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex {
+  width: 23.8%;
+  flex-wrap: wrap;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 60px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex::after {
+  content: "";
+  background-image: url(./../images/crosstalk_cross.svg);
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  right: -27%;
+  top: 18%;
+  position: absolute;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex::after {
+    right: auto;
+    left: 20%;
+    top: auto;
+    bottom: -30%;
+    width: 15px;
+    height: 15px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex:last-child::after {
+  display: none;
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex figure {
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex figure {
+    width: 45%;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex figure img {
+  width: 90%;
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text {
+    width: 50%;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text b {
+  display: block;
+  text-align: center;
+  color: #6E2600;
+  font-size: clamp(18px, 2rem, 25px);
+  letter-spacing: 0.3em;
+  line-height: 2.2em;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text b {
+    text-align: left;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text span {
+  display: block;
+  text-align: center;
+  color: #6E2600;
+  letter-spacing: 0.2em;
+  line-height: 2.2em;
+  font-size: clamp(10px, 1.3rem, 14px);
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text span {
+    text-align: left;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dt {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dt {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #6E2600;
+    font-size: 12px;
+    justify-content: flex-start;
+    width: 95px;
+  }
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dt span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dd {
+  font-size: clamp(13px, 1.5rem, 16px);
+  line-height: 1.875em;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__prof ul li.flex .crosstalk__prof-text dl dd {
+    display: none;
+  }
+}
+.crosstalk_modal_inner .crosstalk__prof--twoperson ul {
+  width: 80%;
+  margin: auto;
+}
+.crosstalk_modal_inner .crosstalk__prof--twoperson ul li.flex {
+  width: 34.8%;
+}
+.crosstalk_modal_inner .crosstalk__prof--twoperson ul li.flex::after {
+  top: 21%;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl {
+  margin-bottom: 11rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl {
+    display: none;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl span {
+  display: block;
+  text-align: center;
+  font-size: clamp(18px, 2rem, 25px);
+  color: #6E2600;
+  letter-spacing: 0.3em;
+  margin-bottom: 3rem;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl p {
+  font-size: clamp(13px, 1.4rem, 18px);
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list {
+  align-items: flex-start;
+  margin-bottom: 6rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list {
+    margin-bottom: 30px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list figure {
+  width: 120px;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list figure {
+    width: 50px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list figure img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list div {
+  margin-left: 5rem;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list div span {
+  color: #6E2600;
+  font-size: clamp(18px, 2rem, 25px);
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list div span {
+    font-size: 14px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list div p {
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+  background-color: #FAF3E7;
+  border-radius: 20px;
+  position: relative;
+  font-size: clamp(13px, 1.5rem, 16px);
+  line-height: 1.875em;
+  width: 500px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list div p {
+    width: 200px;
+    padding: 20px 15px;
+    font-size: 12px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--left {
+  justify-content: flex-start;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--left div p::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-image: url(./../images/crosstalk_left_arrow.svg);
+  background-size: contain;
+  position: absolute;
+  top: 10px;
+  left: -20px;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--left div p::before {
+    width: 15px;
+    height: 15px;
+    left: -10px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--right {
+  justify-content: flex-end;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--right div {
+  margin-left: 0;
+  margin-right: 5rem;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--right div span {
+  text-align: right;
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--right div p::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-image: url(./../images/crosstalk_right_arrow.svg);
+  background-size: contain;
+  position: absolute;
+  top: 10px;
+  right: -20px;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--right div p::before {
+    width: 15px;
+    height: 15px;
+    right: -10px;
+  }
+}
+.crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--wimg {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-wrap .crosstalk__talk-list--wimg {
+    margin-bottom: 30px;
+  }
 }
 
 /*********************************

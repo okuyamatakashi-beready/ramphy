@@ -219,7 +219,7 @@
                 <li class="fadeUp duration2">
                     <figure>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk01.jpg" alt="" class="pc">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/staff_img01_sp.jpg" alt="" class="sp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk01_sp.jpg" alt="" class="sp">
                     </figure>
                     <div class="staff_text flex">
                         <div class="staff_name">
@@ -237,7 +237,7 @@
                 <li class="fadeUp duration3">
                     <figure>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk02.jpg" alt="" class="pc">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/staff_img02_sp.jpg" alt="" class="sp">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk02_sp.jpg" alt="" class="sp">
                     </figure>
                     <div class="staff_text flex">
                         <div class="staff_name">
