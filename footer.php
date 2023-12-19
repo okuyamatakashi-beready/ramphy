@@ -1,8 +1,16 @@
+<?php
+    $page = get_page_by_path('top-cms');
+    $id = $page->ID;
+    $instagram = get_field('instagram', $id);
+    $logo = get_field('logo', $id);
+    $tel = get_field('tel', $id);
+?>
+
 <footer id="footer">
 <div class="container">
     <div class="flex">
         <div class="ft_left">
-            <h3>ramphy</h3>
+            <h3><?php echo $logo;?></h3>
             <small class="sp">Copyright © Cue All Rights Reserved.</small>
 
 
@@ -45,9 +53,9 @@
                 <li>
                     <b>- FOLLOW ME</b>
                     <div class="flex insta_list">
-                        <a href="https://www.instagram.com/tote_yate_official/" class="ft_insta flex" target="_blank">
+                        <a href="<?php echo $instagram['insta_link']; ?>" class="ft_insta flex" target="_blank">
                             <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="" class="pc">
-                            <span>ramphy_hair_atelier</span>
+                            <span><?php echo $instagram['insta_account']; ?></span>
                         </a>
                     </div>
                     

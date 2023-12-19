@@ -49,6 +49,12 @@
 	</head>
 	<!-- <script src="<?php echo get_template_directory_uri(); ?>/js/locomotive-scroll.min.js"></script> -->
 <body data-scroll-container >
+<?php
+    $page = get_page_by_path('top-cms');
+    $id = $page->ID;
+    $logo = get_field('logo', $id);
+	$instagram = get_field('instagram', $id);
+?>
 	<div id="toggle">
 		<div>
 			<span></span>
@@ -67,7 +73,9 @@
                     <div class="mv_logo">
 
                         <div>
-                            <a href="/" class="logo">ramphy</a>
+							<?php if($logo): ?>
+                            	<a href="/" class="logo"><?php echo $logo;?></a>
+							<?php endif; ?>
 
                             <ul class="reserve_link flex">
                                 <li>
@@ -139,9 +147,9 @@
 						</ul>
 						<div class="h_insta_link">
 							<p>- FOLLOW ME</p>
-							<a href="https://www.instagram.com/tote_yate_official/" class="header_insta" targetr="_blank">
+							<a href="<?php echo $instagram['insta_link']; ?>" class="header_insta" targetr="_blank">
 								<div class="flex">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon_white.svg" alt="instagram"><span>ramphy_hair_atelier</span>
+									<img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon_white.svg" alt="instagram"><span><?php echo $instagram['insta_account']; ?></span>
 								</div>
 							</a>
 						</div>
@@ -159,8 +167,9 @@
     <div class="mv_logo">
 
         <div>
-            <a href="/" class="logo">ramphy</a>
-
+			<?php if($logo): ?>
+            	<a href="/" class="logo"><?php echo $logo;?></a>
+			<?php endif; ?>
             <ul class="reserve_link flex">
                 <li>
                     <a href="https://beauty.hotpepper.jp/slnH000473798/" class="flex roboto" target="_blank">

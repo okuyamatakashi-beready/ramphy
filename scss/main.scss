@@ -1368,11 +1368,22 @@ $mainColor: #6E2600;
     MV
 *********************************/
 
+
 #mv {
 	width: 100vw;
 	height: 100vh;
-	@include v.bg;
-	background-image: url(./../images/mv_pc.jpg);
+	position: relative;
+	img.mv_catch {
+		position: absolute;
+		z-index: 100;
+		bottom: 20%;
+		left: 9.375%;
+	}
+	.mv_slide {
+		@include v.bg;
+		width: 100vw;
+		height: 100vh;
+	}
 	.container {
 		position: relative;
 		height: 100%;
@@ -1533,9 +1544,7 @@ $ownerBgColor: #fff;
 	background-color: $ownerinnerBackgroundColor;
 }
 
-.owner_img {
-	background-image: url(./../images/owner_img_pc.jpg);
-}
+
 
 .owner_info {
 	color: $mainColor;
@@ -1919,10 +1928,6 @@ $flowBgColor: #FAF3E7;
 #flow {
 	background: $flowBgColor;
 
-	.line_img {
-		background-image: url(./../images/flow_bg.jpg);
-
-	}
 
 	.container {
 
@@ -1935,7 +1940,11 @@ $flowBgColor: #FAF3E7;
 .flow_wrapper {
 	dl {
 		color: #000;
-
+		&:last-of-type {
+			img {
+				display: none!important;
+			}
+		}
 		dt {
 			background: #fff;
 
@@ -2072,7 +2081,6 @@ $proudColor: #FAF3E7;
 			align-items:stretch;
 			.entry_img {
 				@include v.bg;
-				background-image: url(./../images/entry_dm_bg.jpg);
 				width: 54%;
 				order: 2;
 			}

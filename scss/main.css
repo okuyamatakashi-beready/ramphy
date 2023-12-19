@@ -2368,10 +2368,20 @@ ul.staff_list li .staff_text .staff_link img {
 #mv {
   width: 100vw;
   height: 100vh;
+  position: relative;
+}
+#mv img.mv_catch {
+  position: absolute;
+  z-index: 100;
+  bottom: 20%;
+  left: 9.375%;
+}
+#mv .mv_slide {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./../images/mv_pc.jpg);
+  width: 100vw;
+  height: 100vh;
 }
 #mv .container {
   position: relative;
@@ -2522,10 +2532,6 @@ Owner
 *********************************/
 #owner {
   background-color: #FAF3E7;
-}
-
-.owner_img {
-  background-image: url(./../images/owner_img_pc.jpg);
 }
 
 .owner_info {
@@ -2899,15 +2905,15 @@ ul.staff_list li .staff_text .staff_link::after {
 #flow {
   background: #FAF3E7;
 }
-#flow .line_img {
-  background-image: url(./../images/flow_bg.jpg);
-}
 #flow .container h2 {
   color: #6E2600;
 }
 
 .flow_wrapper dl {
   color: #000;
+}
+.flow_wrapper dl:last-of-type img {
+  display: none !important;
 }
 .flow_wrapper dl dt {
   background: #fff;
@@ -3029,7 +3035,6 @@ ul.staff_list li .staff_text .staff_link::after {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(./../images/entry_dm_bg.jpg);
   width: 54%;
   order: 2;
 }

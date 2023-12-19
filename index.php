@@ -1,9 +1,42 @@
 <?php get_header() ?>
 
+<?php
+    $page = get_page_by_path('top-cms');
+    $id = $page->ID;
+    $mv = get_field('mv', $id);
+    $message_img = get_field('message_img', $id);
+    $message_ttl = get_field('message_ttl', $id);
+    $message_text = get_field('message_text', $id);
+    $owner_img = get_field('owner_img', $id);
+    $owner_name = get_field('owner_name', $id);
+    $owner_text = get_field('owner_text', $id);
+    $recruit_bg = get_field('recruit_bg', $id);
+    $flow = get_field('flow', $id);
+    $proud_img = get_field('proud_img', $id);
+    $proud_img = get_field('proud_img', $id);
+    $requirements = get_field('requirements', $id);
+    $salon_area = get_field('salon_area', $id);
+    $salon_info = get_field('salon_info', $id);
+    $salon_img = get_field('salon_img', $id);
+    $logo = get_field('logo', $id);
+    $entry_img = get_field('entry_img', $id);
+    $instagram = get_field('instagram', $id);
+    $tel = get_field('tel', $id);
+?>
 <div id="mv">
-    <div class="container">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/mv_catch_pc.svg" alt="" loading="lazy">
+    <div class="mv_slider">
+        <?php if( have_rows('mv', $id) ): ?>
+            <?php while( have_rows('mv', $id) ): the_row();
+                $mv_img = get_sub_field('mv_img');
+            ?>
+            <?php if($mv_img): ?>
+                <div class="mv_slide" style="background-image:url(<?php echo $mv_img;?>)"></div>
+            <?php endif; ?>
+
+            <?php endwhile;?>
+        <?php endif; ?>
     </div>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/mv_catch_pc.svg" alt="" loading="lazy" class="mv_catch">
 </div>
 
 <div id="message">
@@ -18,7 +51,9 @@
             </figure> -->
 
             <figure class="m_right_img fadeUp duration2">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/message_right.jpg" alt="" loading="lazy">
+                <?php if($message_img): ?>
+                    <img src="<?php echo $message_img;?>" alt="" loading="lazy">
+                <?php endif; ?>
             </figure>
         </div>
         <!-- //message_img -->
@@ -26,28 +61,17 @@
         <div class="message_text_wrap flex">
 
             <div>
-                <strong>
-                    魅力的な美容師は、<br>
-                    人の満足を叶えて、超える。
-                </strong>
-                <p class="fadeUp duration1">
-                    感度の高い方にも、ご近所さんにも、<br>
-                    小さなサロンデビューの子にも。<br>
-                    いろいろなお客様の満足を叶える。時に超えていきたい。<br><br>
+                <?php if($message_ttl): ?>
+                    <strong>
+                        <?php echo $message_ttl;?>
+                    </strong>
+                <?php endif; ?>
 
-                    でも、それって簡単なことではないです。<br>
-                    そのためには成長が必要で、学ぶことも大切。<br>
-                    美容師が持つ高い技術により素敵な時間を提供し、<br>
-                    満足を叶えることと超えることが、本当のクリエイティブ。<br>
-                    そう信じて、魅力的で愛される美容師がいるサロンにしたい。<br><br>
-
-                    遊びに行く感覚で、満足してもらえるように。<br>
-                    新しいスタイルへ、気軽に挑戦できるように。<br>
-                    おしゃべりしに来て、おしゃれになるように。<br><br>
-
-                    なりたいを叶えられるサロン。リラックスして和むサロン。<br>
-                    そんなサロンが、ramphyです。
-                </p>
+                <?php if($message_text): ?>
+                    <p class="fadeUp duration1">
+                        <?php echo $message_text;?>
+                    </p>
+                <?php endif; ?>
             </div>
 
             <!-- <figure class="fadeUp duration1">
@@ -122,7 +146,10 @@
 
     <section id="owner" class="container">
         <div class="owner_wrapper flex">
-            <div class="owner_img bg fadeUp duration1"></div>
+            <?php if($owner_img): ?>
+                <div class="owner_img bg fadeUp duration1" style="background-image: url(<?php echo $owner_img;?>);"></div>
+            <?php endif; ?>
+
             <div class="owner_info">
                 <h2 class="sec_ttl fadeUp duration1">
                     OWNER MESSAGE
@@ -131,19 +158,14 @@
                     </small>
                 </h2>
                 <p class="fadeUp duration2">
-                    <span class="owner_name">オーナー/ 中野間 秀隆</span>
-                    人に興味関心を持ち、それぞれのことを信頼しているスタッフばかり。<br>
-                    上司部下、先輩後輩という上下関係よりも家族や兄弟姉妹のような関係が近いのかも。<br>
-                    一体感を持ってお客様を迎え入れられているのが、うれしい。<br>
-                    Ramphyを好きでいてくれ、この場所を大切にしてくれるスタッフばかり。<br><br>
+                    <?php if($owner_name): ?>
+                        <span class="owner_name"><?php echo $owner_name;?></span>
+                    <?php endif; ?>
 
-                    だから、スタッフのやりたいことを実現できる場所にしていきたい。<br>
-                    お客様もスタッフも、長居したくなるサロン・会社にしていきたい。<br>
-                    自分の大切な方を紹介してもらえる美容師・サロンを目指していきたい。<br><br>
+                    <?php if($owner_text): ?>
+                        <?php echo $owner_text;?>
+                    <?php endif; ?>
 
-                    無意識に人のことを思いやり、そばにいる人を大切にして、<br>
-                    感謝の心を持っていられる人は、すばらしい。<br>
-                    Ramphyは、そんな人が集まるサロンでありつづけたい。
                 </p>
             </div>
         </div>
@@ -262,9 +284,11 @@
 <!-- //mid_section -->
 
 <section id="flow">
-    <div class="line_img bg">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_text.svg" alt="">
-    </div>
+    <?php if($recruit_bg): ?>
+        <div class="line_img bg" style="background-image: url(<?php echo $recruit_bg;?>);">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_text.svg" alt="">
+        </div>
+    <?php endif; ?>
 
     <div class="container flex">
         <h2 class="sec_ttl fadeUp duration1">
@@ -275,25 +299,22 @@
         </h2>
 
         <div class="flow_wrapper">
-            <dl class="fadeUp duration2">
-                <dt>01. 書類選考<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
-                <dd>インスタグラムのDMからご応募ください。<br>通常2-3営業日以内にメールまたはお電話でご連絡させていただきます。</dd>
-            </dl>
+            <?php if( have_rows('flow', $id) ): ?>
+                <?php while( have_rows('flow', $id) ): the_row();
+                    $flow_dt = get_sub_field('flow_dt');
+                    $flow_dd = get_sub_field('flow_dd');
+                ?>
+                <dl class="fadeUp duration2">
+                    <?php if($flow_dt): ?>
+                        <dt><?php echo $flow_dt;?><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
+                    <?php endif; ?>
+                    <?php if($flow_dd): ?>
+                        <dd><?php echo $flow_dd;?></dd>
+                    <?php endif; ?>
+                </dl>
 
-            <dl class="fadeUp duration3">
-                <dt>02. 面接2回<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
-                <dd>サロンにて、オーナーと面接を行います。<br>不安点やご質問などあれば、なんでもお話しください。</dd>
-            </dl>
-
-            <dl class="fadeUp duration4">
-                <dt>03. サロン実習<img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
-                <dd>シャンプーなどの簡単な実習を行います。</dd>
-            </dl>
-
-            <dl class="fadeUp duration5">
-                <dt>04. 内定</dt>
-                <dd>正式に採用のご連絡をいたします。<br>HAIR SALONの新しい仲間として、一緒に美容師を楽しみましょう♪</dd>
-            </dl>
+            <?php endwhile;?>
+            <?php endif; ?>
         </div>
     </div>
     <!-- //container -->
@@ -303,25 +324,25 @@
     <div class="proud_wrap">
         <div class="container flex">
             <figure class="proud_01 fadeUp duration1">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/proud_img01.jpg" alt="">
+                <img src="<?php echo $proud_img['left_top_img']; ?>" alt="">
             </figure>
             <figure class="proud_02 fadeUp duration2">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/proud_img02.jpg" alt="">
+                <img src="<?php echo $proud_img['right_top_img']; ?>" alt="">
             </figure>
         </div>
         <!-- //container -->
 
         <div class="next_proud_wrap flex">
             <figure class="proud_03 fadeUp duration1">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/proud_img03.jpg" alt="">
+                <img src="<?php echo $proud_img['right_top_img']; ?>" alt="">
             </figure>
             <figure class="proud_04 fadeUp duration2">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/proud_img04.jpg" alt="">
+                <img src="<?php echo $proud_img['right_down_img']; ?>" alt="">
             </figure>
         </div>
 
         <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flt_proud.svg" alt="" class="flt_proud_img fadeUp duration1">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/recruit/proud_all.png" alt="" class="sp_proud_img sp fadeUp duration1">
+        <img src="<?php echo $proud_img['proud_sp_img']; ?>" alt="" class="sp_proud_img sp fadeUp duration1">
     </div>
     <!-- //proud_wrap -->
 
@@ -339,70 +360,34 @@
                     <dt>勤務地</dt>
                     <dd>四日市</dd>
                 </dl> -->
+                <?php if( have_rows('requirements', $id) ): ?>
+                    <?php while( have_rows('requirements', $id) ): the_row();
+                        $require_dt = get_sub_field('require_dt');
+                        $require_dd = get_sub_field('require_dd');
+                    ?>
 
                 <dl class="flex">
-                    <dt>会社名</dt>
-                    <dd>合同会社ramphy</dd>
+                    <dt><?php echo $require_dt;?></dt>
+                    <dd><?php echo $require_dd;?></dd>
                 </dl>
 
-                <dl class="flex">
-                    <dt>募集職種</dt>
-                    <dd>アシスタント</dd>
-                </dl>
-                <dl class="flex">
-                    <dt>資格</dt>
-                    <dd>
-                        高卒以上（美容師免許有選格者）
-                    </dd>
-                </dl>
+                    <?php endwhile;?>
+                <?php endif; ?>
 
-                <dl class="flex">
-                    <dt>給与</dt>
-                    <dd>
-                        ¥190,000 ＋皆動手路、住宅手当、目標達成手当、商品手当、交通費
-                    </dd>
-                </dl>
-                <dl class="flex">
-                    <dt>待遇</dt>
-                    <dd>
-                        社会保険完備、随時昇給、賞与年２回
-                    </dd>
-                </dl>
-                <dl class="flex">
-                    <dt>休日休暇</dt>
-                    <dd>
-                        完全週休2日（月1日曜日休み有り）＋夏季休暇、冬季休暇、有給休暇
-                    </dd>
-                </dl>
-                <dl class="flex">
-                    <dt>採用人数</dt>
-                    <dd>
-                        随時開催（募集枠が埋まり次第締切となります）
-                    </dd>
-                </dl>
-                <dl class="flex">
-                    <dt>試験内容</dt>
-                    <dd>
-                        書類審査、面接２回、サロン実習
-                    </dd>
-                </dl>
-                <dl class="flex">
-                    <dt>面接持ち物</dt>
-                    <dd>
-                        履歴書、成績証明書
-                    </dd>
-                </dl>
-                <dl class="flex">
-                    <dt>勤務地</dt>
-                    <dd>
-                        <div>
-                            <p>ramphy hair atelier（ランフィーヘアアトリエ）</p>
-                            <span>愛知県春日井市如意申町5-10-22</span>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3258.2148659279596!2d136.9497031757685!3d35.25090997272929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600372463eb2a94f%3A0x9d39422f0da9e532!2z44CSNDg2LTA5MTgg5oSb55-l55yM5pil5pel5LqV5biC5aaC5oSP55Sz55S677yV5LiB55uu77yR77yQ4oiS77yS77yS!5e0!3m2!1sja!2sjp!4v1702611563088!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                <?php if($salon_area): ?>
 
-                    </dd>
-                </dl>
+                    <dl class="flex">
+                        <dt>勤務地</dt>
+                        <dd>
+                            <div>
+                                <p><?php echo $salon_area['salon_name']; ?></p>
+                                <span><?php echo $salon_area['salon_address']; ?></span>
+                                <?php echo $salon_area['salon_map']; ?>
+                            </div>
+
+                        </dd>
+                    </dl>
+                <?php endif; ?>
 
 
 
@@ -424,42 +409,26 @@
 
             <div class="salon_container flex">
                 <figure>
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/salon_img.jpg" alt="">
+                    <img src="<?php echo $salon_img;?>" alt="">
                 </figure>
 
                 <div class="salon_info">
-                    <h3>ramphy</h3>
-                    <dl class="flex">
-                        <dt>住所</dt>
-                        <dd>
-                            〒486-0918 <br>
-                            愛知県春日井市如意申町5-10-22
-                        </dd>
-                    </dl>
-                    <dl class="flex">
-                        <dt>TEL</dt>
-                        <dd>0568-93-6719</dd>
-                    </dl>
-                    <dl class="flex">
-                        <dt>営業時間</dt>
-                        <dd>
-                            火・水・木：9:00～19:00<br>
-                            金：12:00〜20:00<br>
-                            土：9:00～19:00<br>
-                            日：9:00～18:00
-                        </dd>
-                    </dl>
-                    <dl class="flex">
-                        <dt>定休日</dt>
-                        <dd>
-                            第1、2、4月曜火曜<br>
-                            第3日曜月曜
-                        </dd>
-                    </dl>
-                    <dl class="flex">
-                        <dt>アクセス</dt>
-                        <dd>JR勝川駅下車から、小牧方面（バス）→ 広田公園西下車 → 徒歩1分</dd>
-                    </dl>
+                    <h3><?php echo $logo;?></h3>
+                    <?php if( have_rows('salon_info', $id) ): ?>
+                        <?php while( have_rows('salon_info', $id) ): the_row();
+                            $salon_dt = get_sub_field('salon_dt');
+                            $salon_dd = get_sub_field('salon_dd');
+                        ?>
+                        <dl class="flex">
+                            <dt><?php echo $salon_dt;?></dt>
+                            <dd>
+                                <?php echo $salon_dd;?>
+                            </dd>
+                        </dl>
+
+                        <?php endwhile;?>
+                    <?php endif; ?>
+
                 </div>
             </div>
         </div>
@@ -468,7 +437,7 @@
     <section id="entry_dm">
         <div class="container">
             <div class="flex">
-                <div class="entry_img"></div>
+                <div class="entry_img" style="background-image:url(<?php echo $entry_img;?>)"></div>
                 <div class="entry_content">
                     <h2 class="sec_ttl">
                         ENTRY
@@ -480,9 +449,9 @@
                     <a href="/" target="_blank" class="entry_btn">
                         <div class="flex">ご応募はDMから<img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt=""></div>
                     </a>
-                    <a href="" class="entry_insta flex">
+                    <a href="<?php echo $instagram['insta_link']; ?>" target="_blank" class="entry_insta flex">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="">
-                        <span>ramphy_hair_atelier</span>
+                        <span><?php echo $instagram['insta_account']; ?></span>
                     </a>
                 </div>
             </div>
@@ -507,13 +476,13 @@
 
             <ul class="flex contact_bnt_wrap">
                 <li>
-                    <a href="tel:0582609123" class="common_btn" target="_blank">
+                    <a href="tel:<?php echo $logo;?>" class="common_btn" target="_blank">
                         <span>+</span>
                         TEL
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/tote_yate_official/" class="common_btn" target="_blank">
+                    <a href="<?php echo $instagram['insta_link']; ?>" class="common_btn" target="_blank">
                         <span>+</span>
                         INSTAGRAM
                     </a>

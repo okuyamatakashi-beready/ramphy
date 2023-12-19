@@ -189,6 +189,18 @@ $(function(){
 	});
 });
 
+$(function(){    
+	$('.mv_slider').slick({
+		autoplay:true,
+		autoplaySpeed:2000,
+		dots:true,
+		infinite:true,
+		arrows: true, 
+		slidesToShow: 1,
+		slidesToScroll: 1,
+	});
+});
+
 
 /*********************************
 	モーダル
