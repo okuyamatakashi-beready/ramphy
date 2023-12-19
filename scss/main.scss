@@ -1378,6 +1378,11 @@ $mainColor: #6E2600;
 		z-index: 100;
 		bottom: 20%;
 		left: 9.375%;
+		@media screen and (max-width: 768px) {
+			width: 200px;
+			bottom: auto;
+			top: 20%;
+		}
 	}
 	.mv_slide {
 		@include v.bg;
