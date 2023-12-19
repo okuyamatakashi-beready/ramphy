@@ -16,7 +16,7 @@
 
             <ul class="flex">
                 <li>
-                    <a href="/">ramphyについて</a>
+                    <a href="#message">ramphyについて</a>
                 </li>
                 <li>
                     <a href="#howto">ramphyの大切にすること</a>
@@ -34,10 +34,10 @@
                     <a href="#requirements">募集要項</a>
                 </li>
                 <li>
-                    <a href="#requirements">会社概要</a>
+                    <a href="#salon">会社概要</a>
                 </li>
                 <li>
-                    <a href="#entry">エントリーフォーム</a>
+                    <a href="#entry_dm">エントリーフォーム</a>
                 </li>
 
             </ul>

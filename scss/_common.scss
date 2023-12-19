@@ -1140,6 +1140,7 @@ div.news_list {
 
     .header_content {
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
     .header_right {
@@ -1155,7 +1156,8 @@ div.news_list {
         padding-bottom: 100px;
         position: relative;
         @media screen and (max-width: 768px) {
-            height: auto;
+            height: 70vh;
+            padding-bottom: 0;
         }
     }
 
@@ -1395,11 +1397,14 @@ div.news_list {
     #footer {
         .ft_left ul {
             width: 100%;
-            border-bottom: 1px solid #0570B4;
+            border-bottom: 1px solid $mainColor;
             padding-bottom: 25px;
 
             li {
                 width: 145px;
+                @media screen and (max-width: 768px) {
+                    line-height: 1;
+                }
             }
         }
 

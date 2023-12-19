@@ -98,49 +98,43 @@
 					<div class="header_nav">
 						<ul class="gnav">
 							<li>
-								<a href="/">
+								<a href="#message">
 									MESSAGE<span>/ メッセージ</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="/about/#page_concept">
-								PHILOSOPHY<span>/ THREEの大切にすること</span>
-								</a>
-							</li>
-
-							<li>
-								<a href="/about">
+								<a href="#owner">
 								GREETING<span>/ 代表挨拶</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="/style_type/hair">
+								<a href="#staff_interview">
 								INTERVIEW<span>/ スタッフインタビュー</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="/#menu">
+								<a href="#flow">
 								FLOW<span>/ 採用フロー</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="/#staff">
+								<a href="#requirements">
 								RECRUIT<span>/ 募集要項</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="/#info">
+								<a href="#salon">
 								BRANDS<span>/ 店舗一覧</span>
 								</a>
 							</li>
 
 							<li>
-								<a href="/blog">
+								<a href="#entry_dm">
 								ENTRY<span>/ エントリー</span>
 								</a>
 							</li>
