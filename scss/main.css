@@ -2387,14 +2387,16 @@ ul.staff_list li .staff_text .staff_link img {
 #mv img.mv_catch {
   position: absolute;
   z-index: 100;
-  bottom: 20%;
-  left: 9.375%;
+  bottom: 15%;
+  right: 9.375%;
 }
 @media screen and (max-width: 768px) {
   #mv img.mv_catch {
     width: 200px;
     bottom: auto;
     top: 20%;
+    right: auto;
+    left: 9.375%;
   }
 }
 #mv .mv_slide {
@@ -3685,7 +3687,11 @@ ul.staff_list li .staff_text .staff_link::after {
     padding: 25px 0;
     margin-left: 0;
     margin-right: auto;
+    width: 255px;
     top: 0;
+  }
+  #footer .ft_right ul li .insta_list a img {
+    width: 20px;
   }
 }
 #footer .ft_right ul li .insta_list a span {

@@ -18,9 +18,7 @@
                 <li>
                     <a href="#message">ramphyについて</a>
                 </li>
-                <li>
-                    <a href="#howto">ramphyの大切にすること</a>
-                </li>
+
                 <li>
                     <a href="#owner">オーナーメッセージ</a>
                 </li>
@@ -54,7 +52,7 @@
                     <b>- FOLLOW ME</b>
                     <div class="flex insta_list">
                         <a href="<?php echo $instagram['insta_link']; ?>" class="ft_insta flex" target="_blank">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="" class="pc">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/insta_icon.svg" alt="">
                             <span><?php echo $instagram['insta_account']; ?></span>
                         </a>
                     </div>

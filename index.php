@@ -334,7 +334,7 @@
 
         <div class="next_proud_wrap flex">
             <figure class="proud_03 fadeUp duration1">
-                <img src="<?php echo $proud_img['right_top_img']; ?>" alt="">
+                <img src="<?php echo $proud_img['left_down_img']; ?>" alt="">
             </figure>
             <figure class="proud_04 fadeUp duration2">
                 <img src="<?php echo $proud_img['right_down_img']; ?>" alt="">
