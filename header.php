@@ -164,20 +164,20 @@
 			<?php if($logo): ?>
             	<a href="/" class="logo"><?php echo $logo;?></a>
 			<?php endif; ?>
-            <ul class="reserve_link flex">
+            <!-- <ul class="reserve_link flex">
                 <li>
                     <a href="https://beauty.hotpepper.jp/slnH000473798/" class="flex roboto" target="_blank">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/common/arrow.svg" alt="">
+                        <img src="</?php echo get_template_directory_uri(); ?>/images/common/arrow.svg" alt="">
                         <span>RESERVE</span>
                     </a>
                 </li>
                 <li>
                     <a href="/recruit" class="flex roboto">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/common/arrow.svg" alt="">
+                        <img src="</?php echo get_template_directory_uri(); ?>/images/common/arrow.svg" alt="">
                         <span>RECRUIT</span>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 

@@ -430,7 +430,7 @@ span.flt_alpha {
 .mv_logo {
   z-index: 500;
   position: fixed;
-  height: 100vh;
+  height: auto;
   opacity: 1;
   box-sizing: border-box;
   transition: all 0.25s;

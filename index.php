@@ -446,7 +446,7 @@
                         </small>
                     </h2>
 
-                    <a href="/" target="_blank" class="entry_btn">
+                    <a href="<?php echo $instagram['insta_link']; ?>" target="_blank" class="entry_btn">
                         <div class="flex">ご応募はDMから<img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt=""></div>
                     </a>
                     <a href="<?php echo $instagram['insta_link']; ?>" target="_blank" class="entry_insta flex">
