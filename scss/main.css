@@ -2180,7 +2180,7 @@ ul.staff_list li .staff_text .staff_link img {
     line-height: 1.5em;
   }
   .owner_info p span.owner_name {
-    display: none;
+    display: block;
   }
   ul.staff_list li {
     width: 100%;

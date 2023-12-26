@@ -519,7 +519,7 @@
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -535,14 +535,14 @@
                             <p>そうですね、サウナへ行っても仕事の話ですから（笑）。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -558,14 +558,14 @@
                             <p>こう見えて1年目は人見知り全開。そんな自分でも変われたのが嬉しい。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -581,14 +581,14 @@
                             <p>バレてました？ 私のわんぱく具合（笑）</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -604,14 +604,14 @@
                             <p>それもこれもりのさんをはじめ、先輩方のおかげですよ。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -627,14 +627,14 @@
                             <p>ええ、そうだったんですね。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -654,14 +654,14 @@
                             <p>お店をもっと良くしたい気持ちとか？</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -677,14 +677,14 @@
                             <p>そういうところは特にりのさんと共感・共鳴できていると感じていますよ。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -700,14 +700,14 @@
                             <p>確かに去年より今年の方が自分を出せている気がします！</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -723,14 +723,14 @@
                             <p>来年はどうなっちゃうんですか、私（笑）。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -746,14 +746,14 @@
                             <p>そう言ってもらえると嬉しいです！</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -769,14 +769,14 @@
                             <p>そうですね！お店での自分に加えて、コンテストで活躍している常連スタイリストになっていきたいですね。美容師から認められる存在。今はまだまだ甘々ですが…。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -792,14 +792,14 @@
                             <p>ふたり共、目標は大きいですが、頑張りましょう！</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -819,14 +819,14 @@
                             <p>先輩を含めてお店の皆さんもそうですけど、ウチの場合はお客様もそんな存在。人間的に成長させてもらっているので、早く一人前となって喜んでもらえる美容師になります！</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -842,14 +842,14 @@
                             <p>そんなこともありましたね（笑）。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -865,14 +865,14 @@
                             <p>私もです！ 三代にわたって理・美容師ですが、母に勧められて進んできた道で良かった。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
@@ -888,14 +888,14 @@
                             <p>私もです！ そうです、滅多に人を褒めない母が「ここにしなさい」って勧めてきたからよっぽど良いんだろうって（笑）。</p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
                         </figure>
                     </div>
                     <!-- right -->
 
                     <div class="crosstalk__talk-list crosstalk__talk-list--left flex">
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img05.png" alt="">
                         </figure>
                         <div>
                             <span>山本 りの</span>
