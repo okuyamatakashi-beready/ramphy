@@ -10,7 +10,7 @@
 <div class="container">
     <div class="flex">
         <div class="ft_left">
-            <h3><?php echo $logo;?></h3>
+            <h3><img src="<?php echo $logo;?>" alt=""></h3>
             <small class="sp">Copyright © Cue All Rights Reserved.</small>
 
 

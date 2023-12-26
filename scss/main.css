@@ -224,8 +224,16 @@ a.logo {
   letter-spacing: 0.06em;
   font-size: clamp(30px, 5rem, 50px);
   line-height: 1;
-  margin-left: 12%;
+  margin-left: 0%;
   font-family: "Georgia Regular";
+}
+a.logo img {
+  width: 11vw;
+}
+@media screen and (max-width: 768px) {
+  a.logo img {
+    width: 108px;
+  }
 }
 
 .mv_logo {
@@ -944,6 +952,7 @@ div.news_list .news_list_child h3 a {
   *********************************/
   .mv_logo {
     position: fixed;
+    margin-left: 30px;
   }
   .flex {
     flex-wrap: wrap;
@@ -3637,6 +3646,14 @@ ul.staff_list li .staff_text .staff_link::after {
   font-weight: normal;
   font-family: "Georgia Regular";
   font-size: clamp(40px, 4.16rem, 52px);
+}
+#footer .ft_left h3 img {
+  width: 11vw;
+}
+@media screen and (max-width: 768px) {
+  #footer .ft_left h3 img {
+    width: 108px;
+  }
 }
 #footer .ft_left ul li a {
   color: #6E2600;

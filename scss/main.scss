@@ -2642,6 +2642,12 @@ $footerBg: #EAEAEA;
 			font-weight: normal;
 			font-family: 'Georgia Regular';
 			font-size: clamp(40px,4.16rem,52px);
+			img {
+				width: 11vw;
+				@media screen and (max-width: 768px) {
+					width: 108px;
+				}
+			}
         }
 
         ul {

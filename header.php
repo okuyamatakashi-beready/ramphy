@@ -74,7 +74,7 @@
 
                         <div>
 							<?php if($logo): ?>
-                            	<a href="/" class="logo"><?php echo $logo;?></a>
+                            	<a href="/" class="logo"><img src="<?php echo $logo;?>" alt=""></a>
 							<?php endif; ?>
 
                             <ul class="reserve_link flex">
@@ -162,7 +162,7 @@
 
         <div>
 			<?php if($logo): ?>
-            	<a href="/" class="logo"><?php echo $logo;?></a>
+            	<a href="/" class="logo"><img src="<?php echo $logo;?>" alt=""></a>
 			<?php endif; ?>
             <!-- <ul class="reserve_link flex">
                 <li>

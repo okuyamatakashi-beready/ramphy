@@ -260,8 +260,14 @@ a.logo {
     letter-spacing: 0.06em;
     font-size: clamp(30px, 5rem, 50px);
     line-height: 1;
-    margin-left: 12%;
+    margin-left: 0%;
     font-family: 'Georgia Regular';
+    img {
+        width: 11vw;
+        @media screen and (max-width: 768px) {
+            width: 108px;
+        }
+    }
 }
 
 .mv_logo {
@@ -1061,6 +1067,7 @@ div.news_list {
 
     .mv_logo {
         position: fixed;
+        margin-left: 30px;
     }
 
     .flex {
