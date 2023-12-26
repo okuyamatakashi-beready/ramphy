@@ -7,6 +7,7 @@
     $message_img = get_field('message_img', $id);
     $message_ttl = get_field('message_ttl', $id);
     $message_text = get_field('message_text', $id);
+    $sp_mv = get_field('sp_mv', $id);
     $owner_img = get_field('owner_img', $id);
     $owner_name = get_field('owner_name', $id);
     $owner_text = get_field('owner_text', $id);
@@ -24,13 +25,26 @@
     $tel = get_field('tel', $id);
 ?>
 <div id="mv">
-    <div class="mv_slider">
+    <div class="mv_slider pc">
         <?php if( have_rows('mv', $id) ): ?>
             <?php while( have_rows('mv', $id) ): the_row();
                 $mv_img = get_sub_field('mv_img');
             ?>
             <?php if($mv_img): ?>
                 <div class="mv_slide" style="background-image:url(<?php echo $mv_img;?>)"></div>
+            <?php endif; ?>
+
+            <?php endwhile;?>
+        <?php endif; ?>
+    </div>
+
+    <div class="mv_slider sp">
+        <?php if( have_rows('sp_mv', $id) ): ?>
+            <?php while( have_rows('sp_mv', $id) ): the_row();
+                $sp_img = get_sub_field('sp_img');
+            ?>
+            <?php if($sp_img): ?>
+                <div class="mv_slide" style="background-image:url(<?php echo $sp_img;?>)"></div>
             <?php endif; ?>
 
             <?php endwhile;?>
@@ -413,7 +427,7 @@
                 </figure>
 
                 <div class="salon_info">
-                    <h3><?php echo $logo;?></h3>
+                    <h3><?php bloginfo( 'name' ); ?></h3>
                     <?php if( have_rows('salon_info', $id) ): ?>
                         <?php while( have_rows('salon_info', $id) ): the_row();
                             $salon_dt = get_sub_field('salon_dt');
