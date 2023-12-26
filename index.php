@@ -320,7 +320,7 @@
                 ?>
                 <dl class="fadeUp duration2">
                     <?php if($flow_dt): ?>
-                        <dt><?php echo $flow_dt;?><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow.svg" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/images/recruit/flow_arrow_sp.svg" alt="" class="sp"></dt>
+                        <dt><?php echo $flow_dt;?></dt>
                     <?php endif; ?>
                     <?php if($flow_dd): ?>
                         <dd><?php echo $flow_dd;?></dd>
@@ -490,7 +490,7 @@
 
             <ul class="flex contact_bnt_wrap">
                 <li>
-                    <a href="tel:<?php echo $logo;?>" class="common_btn" target="_blank">
+                    <a href="tel:<?php echo $tel;?>" class="common_btn" target="_blank">
                         <span>+</span>
                         TEL
                     </a>

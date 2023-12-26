@@ -2253,13 +2253,11 @@ ul.staff_list li .staff_text .staff_link img {
   .flow_wrapper {
     width: 100%;
   }
-  .flow_wrapper dl {
-    margin-bottom: 40px;
-  }
   .flow_wrapper dl dd {
-    padding: 20px 0 0 16px;
+    padding: 20px 0 0 30px;
     letter-spacing: 0.01em;
     line-height: 22px;
+    box-sizing: border-box;
   }
   .flow_wrapper dl dt img {
     width: 10px;
@@ -2595,6 +2593,7 @@ ul.staff_list li .staff_text .staff_name p span {
 ul.staff_list li .staff_text .staff_link {
   color: #6E2600;
   width: 90px;
+  cursor: pointer;
 }
 ul.staff_list li .staff_text .staff_link::after {
   background: #6E2600;
@@ -3311,6 +3310,45 @@ ul.staff_list li .staff_text .staff_link::after {
 
 .flow_wrapper dl {
   color: #000;
+  padding-bottom: 40px;
+  position: relative;
+  margin-bottom: 0;
+}
+.flow_wrapper dl::before {
+  content: "";
+  position: absolute;
+  height: 40%;
+  top: 20%;
+  bottom: 0;
+  left: 5%;
+  margin: auto;
+  width: 2px;
+  background: #6E2600;
+  display: block;
+  z-index: 10;
+}
+@media screen and (max-width: 768px) {
+  .flow_wrapper dl::before {
+    left: 0;
+    width: 1px;
+  }
+}
+.flow_wrapper dl::after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 4.8%;
+  bottom: 23.5%;
+  transform: rotate(-45deg);
+  background: #6E2600;
+}
+@media screen and (max-width: 768px) {
+  .flow_wrapper dl::after {
+    left: -0.5%;
+    height: 1px;
+    width: 15px;
+  }
 }
 .flow_wrapper dl:last-of-type img {
   display: none !important;

@@ -1167,9 +1167,10 @@ ul.staff_list {
 
 		dl {
 			dd {
-				padding: 20px 0 0 16px;
+				padding: 20px 0 0 30px;
 				letter-spacing: 0.01em;
 				line-height: 22px;
+				box-sizing: border-box;
 			}
 
 			dt img {
@@ -1177,8 +1178,6 @@ ul.staff_list {
 				left: -1%;
 				bottom: -240%;
 			}
-
-			margin-bottom: 40px;
 		}
 	}
 
@@ -1595,6 +1594,7 @@ ul.staff_list {
 			.staff_link {
 				color: $mainColor;
 				width: 90px;
+				cursor: pointer;
 				&::after {
 					background: $mainColor;
 
@@ -2287,6 +2287,41 @@ $flowBgColor: #FAF3E7;
 .flow_wrapper {
 	dl {
 		color: #000;
+		padding-bottom: 40px;
+		position: relative;
+		margin-bottom: 0;
+		&::before {
+			content: "";
+			position: absolute;
+			height: 40%;
+			top: 20%;
+			bottom: 0;
+			left: 5%;
+			margin: auto;
+			width: 2px;
+			background: #6E2600;
+			display: block;
+			z-index: 10;
+			@media screen and (max-width: 768px) {
+				left: 0;
+				width: 1px;
+			}
+		}
+		&::after {
+			content: "";
+			width: 20px;
+			height: 2px;
+			position: absolute;
+			left: 4.8%;
+			bottom: 23.5%;
+			transform: rotate(-45deg);
+			background: #6E2600;
+			@media screen and (max-width: 768px) {
+				left: -0.5%;
+				height: 1px;
+				width: 15px;
+			}
+		}
 		&:last-of-type {
 			img {
 				display: none!important;
@@ -2296,8 +2331,10 @@ $flowBgColor: #FAF3E7;
 			background: #fff;
 
 		}
+
 	}
 }
+
 
 
 /*********************************
