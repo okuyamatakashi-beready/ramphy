@@ -18,7 +18,6 @@
                         </figure>
                         <div class="crosstalk__prof-text">
                             <b>柴原 夢奈</b>
-                            <span>2023年入社／00歳 アシスタント</span>
                             <dl>
                                 <dt class="flex"><img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_arrow.svg" alt=""><span>PROFILE</span></dt>
                                 <dd>三重県志摩市出身。中日美容専門学校卒業。幼少の頃より地元の美容室で働く美容師に憧れたことがキッカケで美容師を目指すように。趣味はダンス、食べること、映画鑑賞、カラオケ、ショッピングなど。悩みがないのが悩みという根っからのポジティブ人間。</dd>
@@ -32,7 +31,6 @@
                         </figure>
                         <div class="crosstalk__prof-text">
                             <b>加藤 美羽</b>
-                            <span>2023年入社／00歳 アシスタント</span>
                             <dl>
                                 <dt class="flex"><img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_arrow.svg" alt=""><span>PROFILE</span></dt>
                                 <dd>〇〇市出身。中日美容専門学校卒業。小さい頃からオシャレをすることが好きで、将来はそんな仕事に就きたいと思っていたところ、人を喜ばせる仕事とオシャレの両立ができる美容師があると気づき、そこから一直線。人見知りだけど根はハートフル。</dd>
@@ -478,7 +476,6 @@
                         </figure>
                         <div class="crosstalk__prof-text">
                             <b>櫻井 莉子</b>
-                            <span>2023年入社／00歳 アシスタント</span>
                             <dl>
                                 <dt class="flex"><img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_arrow.svg" alt=""><span>PROFILE</span></dt>
                                 <dd>愛知県豊橋市出身。静岡県西部理容美容専門学校卒業。ひとりがあまり好きではないので地元・豊橋へ帰省したり、休日は誰かと会ったりすることが多く、なかでも先輩のりのさんがほとんど。仕事を始めてから休日の貴重さを再認識している今日このごろ。</dd>
@@ -492,7 +489,6 @@
                         </figure>
                         <div class="crosstalk__prof-text">
                             <b>山本 りの</b>
-                            <span>2018年入社／00歳 アシスタント</span>
                             <dl>
                                 <dt class="flex"><img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_arrow.svg" alt=""><span>PROFILE</span></dt>
                                 <dd>〇〇市出身。中日美容専門学校卒業。莉子ちゃんと逆で、案外ひとりも好きなタイプで洋服屋を巡ったり、漫画かアニメを鑑賞したり。それ以外はほぼ莉子ちゃん（笑）。最近、一番仲が良く、仕事もプライベートも一緒で気の許せる親友的存在。</dd>
@@ -688,7 +684,7 @@
                         </figure>
                         <div>
                             <span>山本 りの</span>
-                            <p>Ramphyの皆はお互いを褒めたり、お客様にスタッフの良いところをお伝えしたり、柔らかい空気感をつくっている。だから。自分を含めてそこにいる人は自然と心が開けていくのかもね</p>
+                            <p>ramphyの皆はお互いを褒めたり、お客様にスタッフの良いところをお伝えしたり、柔らかい空気感をつくっている。だから。自分を含めてそこにいる人は自然と心が開けていくのかもね</p>
                         </div>
                     </div>
                     <!-- left -->
@@ -885,7 +881,7 @@
                         
                         <div>
                             <span>櫻井 莉子</span>
-                            <p>私もです！ そうです、滅多に人を褒めない母が「ここにしなさい」って勧めてきたからよっぽど良いんだろうって（笑）。</p>
+                            <p>そうです、滅多に人を褒めない母が「ここにしなさい」って勧めてきたからよっぽど良いんだろうって（笑）。</p>
                         </div>
                         <figure>
                             <img src="<?php echo get_template_directory_uri(); ?>/images/crosstalk_img04.png" alt="">

@@ -58,7 +58,7 @@
         <img src="</?php echo get_template_directory_uri(); ?>/images/message_catch.svg" alt="" loading="lazy">
     </div> -->
 
-    <div class="container message_wrapper">
+    <div class="message_wrapper">
         <div class="message_img flex">
             <!-- <figure class="m_left_img fadeUp duration1">
                 <img src="</?php echo get_template_directory_uri(); ?>/images/message_left.jpg" alt="" loading="lazy">

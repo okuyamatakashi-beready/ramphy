@@ -2486,7 +2486,7 @@ ul.staff_list li .staff_text .staff_link img {
 #message .message_text_wrap div {
   background-color: #fff;
   width: 45.57%;
-  padding-left: 11.375%;
+  padding-left: 21%;
   margin-left: -11.375%;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -3136,6 +3136,7 @@ ul.staff_list li .staff_text .staff_link::after {
 .crosstalk_modal_inner .crosstalk__prof--twoperson ul {
   width: 80%;
   margin: auto;
+  align-items: flex-start;
 }
 .crosstalk_modal_inner .crosstalk__prof--twoperson ul li.flex {
   width: 34.8%;
@@ -3338,7 +3339,7 @@ ul.staff_list li .staff_text .staff_link::after {
   width: 20px;
   height: 2px;
   position: absolute;
-  left: 4.8%;
+  left: 4.75%;
   bottom: 23.5%;
   transform: rotate(-45deg);
   background: #6E2600;
@@ -3352,6 +3353,9 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 .flow_wrapper dl:last-of-type img {
   display: none !important;
+}
+.flow_wrapper dl:last-of-type::before, .flow_wrapper dl:last-of-type::after {
+  display: none;
 }
 .flow_wrapper dl dt {
   background: #fff;
