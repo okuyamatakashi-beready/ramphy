@@ -2485,14 +2485,15 @@ ul.staff_list li .staff_text .staff_link img {
 }
 #message .message_text_wrap div {
   background-color: #fff;
-  width: 45.57%;
+  width: 60%;
   padding-left: 21%;
+  box-sizing: border-box;
   margin-left: -11.375%;
   padding-top: 7rem;
   padding-bottom: 7rem;
   position: relative;
   z-index: 50;
-  margin-top: -77rem;
+  margin-top: -50rem;
   color: #6E2600;
 }
 @media screen and (max-width: 768px) {
