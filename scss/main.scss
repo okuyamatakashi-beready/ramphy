@@ -442,7 +442,7 @@ ul.staff_list {
 						padding: 5px;
 						color: #fff;
 						@media screen and (max-width: 768px) {
-							padding: 0;
+							padding: 0 5px;
 						}
 					}
 				}
@@ -1932,6 +1932,7 @@ ul.staff_list {
 						span {
 							background-color: transparent;
 							color: $mainColor;
+							
 						}
 					}
 				}

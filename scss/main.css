@@ -1648,7 +1648,7 @@ ul.staff_list li .staff_text .staff_name p span {
 }
 @media screen and (max-width: 768px) {
   ul.staff_list li .staff_text .staff_name p span {
-    padding: 0;
+    padding: 0 5px;
   }
 }
 ul.staff_list li .staff_text .staff_link {
