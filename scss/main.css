@@ -3010,7 +3010,7 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 @media screen and (max-width: 768px) {
   .crosstalk_modal_inner .crosstalk__prof {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 .crosstalk_modal_inner .crosstalk__prof ul {
@@ -3152,7 +3152,7 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 @media screen and (max-width: 768px) {
   .crosstalk_modal_inner .crosstalk__prof--twoperson ul li.flex::after {
-    bottom: -37%;
+    bottom: -27%;
     top: auto;
   }
 }
@@ -3161,7 +3161,7 @@ ul.staff_list li .staff_text .staff_link::after {
 }
 @media screen and (max-width: 768px) {
   .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl {
-    display: none;
+    display: block;
   }
 }
 .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl span {
@@ -3171,6 +3171,12 @@ ul.staff_list li .staff_text .staff_link::after {
   color: #6E2600;
   letter-spacing: 0.3em;
   margin-bottom: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl span {
+    font-size: 14px;
+    line-height: 2;
+  }
 }
 .crosstalk_modal_inner .crosstalk__talk-content .crosstalk__talk-ttl p {
   font-size: clamp(13px, 1.4rem, 18px);

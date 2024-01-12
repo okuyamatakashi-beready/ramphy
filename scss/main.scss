@@ -2000,7 +2000,7 @@ ul.staff_list {
 		border-bottom: 3px dotted $mainColor;
 		margin-bottom: 6rem;
 		@media screen and (max-width: 768px) {
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 		}
 		ul {
 			width: 100%;
@@ -2125,7 +2125,7 @@ ul.staff_list {
 				&::after {
 					top: 25%;
 					@media screen and (max-width: 768px) {
-						bottom: -37%;
+						bottom: -27%;
 						top: auto;
 					}
 				}
@@ -2136,7 +2136,7 @@ ul.staff_list {
 		.crosstalk__talk-ttl {
 			margin-bottom: 11rem;
 			@media screen and (max-width: 768px) {
-				display: none;
+				display: block;
 			}
 			span {
 				display: block;
@@ -2145,6 +2145,11 @@ ul.staff_list {
 				color: $mainColor;
 				letter-spacing: 0.3em;
 				margin-bottom: 3rem;
+				@media screen and (max-width: 768px) {
+					font-size: 14px;
+					line-height: 2;
+
+				}
 			}
 			p {
 				font-size: clamp(13px,1.4rem,18px);
