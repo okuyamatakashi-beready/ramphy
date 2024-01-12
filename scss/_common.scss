@@ -90,7 +90,7 @@ a.common_btn {
 }
 
 .fadeUp {
-    transition: opacity 0.5s linear 0s;
+    transition: opacity 0.4s linear 0s;
     opacity: 0;
     transform: translateY(50px);
 }
@@ -139,19 +139,20 @@ a.common_btn {
 }
 
 .duration1 {
+    transition-delay: 0.1s;
+}
+
+
+.duration2 {
     transition-delay: 0.3s;
 }
 
-.duration2 {
+.duration3 {
     transition-delay: 0.5s;
 }
 
-.duration3 {
-    transition-delay: 0.7s;
-}
-
 .duration4 {
-    transition-delay: 0.9s;
+    transition-delay: 0.4s;
 }
 
 .duration5 {
