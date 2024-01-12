@@ -3148,7 +3148,7 @@ ul.staff_list li .staff_text .staff_link::after {
   }
 }
 .crosstalk_modal_inner .crosstalk__prof--twoperson ul li.flex::after {
-  top: 21%;
+  top: 25%;
 }
 @media screen and (max-width: 768px) {
   .crosstalk_modal_inner .crosstalk__prof--twoperson ul li.flex::after {
